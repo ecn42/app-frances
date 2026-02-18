@@ -1,0 +1,419 @@
+category_slug,titre,niveau,resume,contenu_markdown,tags_json
+grammaire,Articles definis et indefinis,A2,Choisir entre le/la/les et un/une/des.,"Utilise **le/la/les** pour une information connue.
+
+Utilise **un/une/des** pour introduire une information nouvelle.
+
+Exemple: *J'ai achete un livre. Le livre est utile.*","[""articles"", ""determinants""]"
+grammaire,Articles partitifs,A2,"Employer du, de la, de l', des pour les quantites non comptables.","Le partitif exprime une partie d'un tout.
+
+- du pain
+- de la soupe
+- de l'eau
+
+Apres negation, on emploie souvent **de**: *Je ne mange pas de pain.*","[""partitif"", ""quantite""]"
+grammaire,Negation simple,A2,Construire ne...pas correctement.,"La negation encadre le verbe conjugue: *Je ne parle pas vite.*
+
+Avec infinitif: *ne pas + infinitif*.","[""negation""]"
+grammaire,Comparatif et superlatif,A2,"Comparer des personnes, objets, situations.","Comparatif: **plus/moins/aussi ... que**.
+
+Superlatif: **le plus/le moins**.
+
+Irreguliers: meilleur, mieux.","[""comparatif"", ""superlatif""]"
+grammaire,Pronoms personnels sujet,A1,"Je, tu, il/elle, nous, vous, ils/elles.","Les pronoms sujet remplacent le nom du sujet.
+
+Exemple: *Marie travaille* -> *Elle travaille*.","[""pronoms"", ""sujet""]"
+grammaire,Question directe,A2,"Poser une question avec est-ce que, inversion, intonation.","Trois formes utiles:
+
+- *Tu viens ?*
+- *Est-ce que tu viens ?*
+- *Viens-tu ?*","[""question""]"
+regles-grammaire,Pronoms COD et COI,B1,Distinguer et placer correctement les pronoms complements.,"### Regle
+- COD: le, la, les
+- COI: lui, leur
+- Les pronoms se placent avant le verbe conjugue.
+
+### Exemples
+- Je vois Marie -> Je la vois.
+- Je vois Paul et Luc -> Je les vois.
+- Je parle a Marie -> Je lui parle.
+- Je parle a mes parents -> Je leur parle.
+- Je vais telephoner a mon professeur -> Je vais lui telephoner.
+
+### Pieges
+- *Parler* prend un COI (a quelqu'un).
+- *Voir* prend un COD (quelqu'un).
+- A l'imperatif affirmatif: Donne-le-moi.","[""pronoms"", ""cod"", ""coi""]"
+regles-grammaire,Pronoms y et en,B1,"Remplacer les complements de lieu, de chose et de quantite.","### Regle
+- **y**: lieu ou complement introduit par a (chose).
+- **en**: complement introduit par de, ou quantite.
+
+### Exemples
+- Tu vas a la bibliotheque ? Oui, j'y vais.
+- Tu penses a cet exercice ? Oui, j'y pense.
+- Tu as besoin de cette fiche ? Oui, j'en ai besoin.
+- Tu veux des exemples ? Oui, j'en veux trois.
+- Tu viens du cours ? Oui, j'en viens.
+
+### Pieges
+- Pour une personne, on prefere souvent un pronom tonique: Je pense a elle.
+- Avec une quantite, on conserve le nombre: J'en prends deux.","[""y"", ""en"", ""pronoms""]"
+regles-grammaire,Pronoms relatifs,B1,"Structurer des phrases plus riches avec qui, que, dont, ou.","### Roles
+- qui: sujet
+- que: COD
+- dont: de + nom/verbe
+- ou: lieu ou temps
+
+### Exemples
+- Le livre qui est sur la table est a moi.
+- Le film que j'ai vu etait excellent.
+- Le sujet dont nous parlons est complexe.
+- La ville ou j'etudie est dynamique.
+- Le jour ou je passe l'examen approche.
+
+### Pieges
+- Apres *parler de*, *avoir besoin de*, utiliser souvent *dont*.
+- Ne pas supprimer *que* dans les phrases ecrites formelles.","[""relatifs"", ""phrase-complexe""]"
+regles-grammaire,Concordance des temps,B2,Maintenir la coherence temporelle dans les subordonnees.,"### Principe
+Le temps du verbe principal influence le temps de la subordonnee selon le sens.
+
+### Exemples
+- Il dit qu'il vient.
+- Il a dit qu'il viendrait.
+- Je savais qu'elle etait prete.
+- Elle pensait que nous avions fini.
+- Il a explique qu'il etait arrive en retard.
+
+### Conseil
+Relis chaque phrase complexe et verifie la logique chronologique.","[""concordance"", ""b2""]"
+regles-grammaire,Declencheurs du subjonctif,B2,Identifier les contextes qui exigent le subjonctif.,"### Expressions frequentes
+- il faut que
+- bien que
+- pour que
+- avant que
+- je veux que
+
+### Exemples
+- Il faut que tu revises ce chapitre.
+- Bien qu'il soit fatigue, il continue.
+- Je veux que vous soyez prets.
+- Avant que nous partions, verifions la consigne.
+- Pour que l'idee soit claire, donne un exemple.
+
+### Irreguliers utiles
+etre -> que je sois
+avoir -> que j'aie
+faire -> que je fasse
+aller -> que j'aille","[""subjonctif""]"
+regles-grammaire,Connecteurs logiques,B2,Ameliorer la cohesion et la progression argumentative.,"### Fonctions
+- Addition: de plus, en outre
+- Opposition: cependant, pourtant
+- Cause: car, puisque
+- Consequence: donc, ainsi
+- Illustration: par exemple
+
+### Exemples
+- Le cours est dense; cependant, il est tres utile.
+- J'ai peu de temps, donc je fais un plan rapide.
+- Cette methode est efficace, car elle est progressive.
+- Par exemple, je revise les verbes tous les soirs.
+- En outre, je fais une simulation hebdomadaire.
+
+### Conseil TCF
+Evite de commencer toutes les phrases par *mais* ou *donc*.","[""connecteurs"", ""argumentation""]"
+temps-verbaux,Present de l'indicatif,A1,Formation des verbes reguliers et reperes pour les irreguliers frequents.,"### Formation des verbes reguliers
+- Verbes en **-er**: e, es, e, ons, ez, ent (parler)
+- Verbes en **-ir**: is, is, it, issons, issez, issent (finir)
+- Verbes en **-re**: s, s, -, ons, ez, ent (vendre)
+
+### Irreguliers essentiels
+- etre: je suis, nous sommes
+- avoir: j'ai, nous avons
+- aller: je vais, nous allons
+- faire: je fais, nous faisons
+
+### Exemples
+- Je parle avec mon professeur.
+- Nous finissons ce module aujourd'hui.
+- Ils vendent leurs anciens livres.
+- Je vais a la bibliotheque.","[""present"", ""formation""]"
+temps-verbaux,Passe compose,A2,Former le passe compose avec avoir/etre et accorder correctement.,"### Formation
+- Auxiliaire au present + participe passe.
+- Participes reguliers: -er -> -e, -ir -> -i, -re -> -u.
+
+### Choix de l'auxiliaire
+- La majorite des verbes prennent **avoir**.
+- Verbes de mouvement frequents prennent **etre** (aller, venir, partir).
+
+### Irreguliers frequents
+- faire -> fait
+- prendre -> pris
+- voir -> vu
+- avoir -> eu
+- etre -> ete
+
+### Exemples
+- J'ai termine mes devoirs.
+- Elle est arrivee en avance.
+- Nous avons pris des notes.","[""passe-compose"", ""formation""]"
+temps-verbaux,Imparfait,A2,Former l'imparfait et l'utiliser pour le contexte et l'habitude.,"### Formation
+Radical de **nous** au present + terminaisons: ais, ais, ait, ions, iez, aient.
+
+Exemple: nous parlons -> je parlais.
+
+### Irregulier majeur
+- etre -> j'etais, tu etais, il etait, nous etions...
+
+### Exemples
+- Quand j'etais petit, je lisais beaucoup.
+- Nous travaillions tous les soirs.
+- Il faisait froid en hiver.","[""imparfait"", ""formation""]"
+temps-verbaux,Imparfait vs passe compose,B1,Distinguer action de fond et evenement ponctuel.,"### Regle pratique
+- Imparfait: description, habitude, action en cours.
+- Passe compose: action ponctuelle terminee.
+
+### Exemples
+- Il pleuvait quand je suis sorti.
+- Nous etudiions quand le professeur est arrive.
+- Je lisais, puis j'ai entendu un bruit.
+- Avant, je prenais le bus; hier, j'ai pris le train.","[""imparfait"", ""passe-compose""]"
+temps-verbaux,Futur simple,A2,Former le futur simple des verbes reguliers et connaitre les radicaux irreguliers utiles.,"### Formation reguliere
+- Infinitif + terminaisons: ai, as, a, ons, ez, ont.
+- Verbes en -re: retirer le e final (vendre -> vendrai).
+
+### Radicaux irreguliers frequents
+- etre -> ser-
+- avoir -> aur-
+- aller -> ir-
+- faire -> fer-
+- venir -> viendr-
+- pouvoir -> pourr-
+
+### Exemples
+- Demain, je reviserai deux heures.
+- Nous irons a la bibliotheque.
+- Ils auront plus de temps.","[""futur-simple"", ""formation""]"
+temps-verbaux,Conditionnel present,B1,Former le conditionnel et l'utiliser pour politesse et hypothese.,"### Formation
+Radical du futur + terminaisons de l'imparfait: ais, ais, ait, ions, iez, aient.
+
+### Irreguliers frequents
+- etre -> serais
+- avoir -> aurais
+- aller -> irais
+- faire -> ferais
+- pouvoir -> pourrais
+
+### Exemples
+- Je voudrais plus d'exemples.
+- Si j'avais du temps, je lirais davantage.
+- Nous pourrions revoir ce point.","[""conditionnel"", ""formation""]"
+temps-verbaux,Subjonctif present,B2,Former et utiliser le subjonctif present en contexte frequent.,"### Formation generale
+Radical de ils/elles au present + e, es, e, ions, iez, ent.
+
+### Irreguliers a memoriser
+- etre: que je sois
+- avoir: que j'aie
+- aller: que j'aille
+- faire: que je fasse
+- pouvoir: que je puisse
+
+### Exemples
+- Il faut que tu finisses ce travail.
+- Bien qu'il soit tard, nous continuons.
+- Je veux que vous soyez attentifs.","[""subjonctif"", ""formation""]"
+temps-verbaux,Plus-que-parfait,B1,Exprimer une anterieurite dans le passe.,"### Formation
+Auxiliaire a l'imparfait + participe passe.
+
+### Exemples
+- J'avais deja termine quand il est arrive.
+- Nous etions partis avant la pluie.
+- Elle avait pris des notes utiles.
+
+### Astuce
+Utilise-le pour clarifier la chronologie de deux actions passees.","[""plus-que-parfait"", ""formation""]"
+temps-verbaux,Gerondif,B1,"Exprimer simultaneite, maniere ou condition.","### Formation
+**en + participe present** (radical de nous + ant).
+
+### Exemples
+- Il apprend en lisant.
+- Nous progressons en pratiquant chaque jour.
+- En etant organise, on reduit le stress.
+
+### Attention
+Le gerondif exprime souvent la maniere ou la condition.","[""gerondif"", ""formation""]"
+regles-grammaire,Accord du participe passe,B2,"Regles d'accord avec etre, avoir et verbes pronominaux.","### Regle
+- Avec **etre**, le participe passe s'accorde avec le sujet.
+- Avec **avoir**, accord seulement si le COD est place avant.
+- Avec les verbes pronominaux, l'accord depend de la fonction du pronom.
+
+### Exemples
+- Elles sont arrivees tot.
+- Les lettres que j'ai ecrites sont sur la table.
+- Ils se sont parle (COI: pas d'accord).
+- Elles se sont vues (COD: accord).
+
+### Pieges
+- Confondre COD et COI avec les pronominaux.
+- Oublier l'accord en genre/nombre avec etre.","[""participe-passe"", ""accord"", ""b2""]"
+regles-grammaire,Negation complexe,B1,"Maitriser ne...jamais, ne...plus, ne...rien, ne...personne, ne...que.","### Structures
+- ne ... jamais
+- ne ... plus
+- ne ... rien
+- ne ... personne
+- ne ... que (restriction)
+
+### Exemples
+- Je ne sors jamais tard.
+- Il ne fume plus.
+- Nous ne comprenons rien.
+- Je n'ai vu personne.
+- Elle ne mange que des legumes.
+
+### Conseil TCF
+Varie les structures de negation dans tes redactions pour montrer de la precision.","[""negation"", ""structure""]"
+regles-grammaire,Discours direct et indirect,B2,Transformer une citation en discours rapporte.,"### Regle
+Au discours indirect, on adapte les pronoms, les marqueurs de temps et parfois les temps verbaux.
+
+### Exemples
+- Direct: Il dit: ""Je viens demain.""  
+  Indirect: Il dit qu'il vient demain.
+- Direct: Elle a dit: ""Je partirai.""  
+  Indirect: Elle a dit qu'elle partirait.
+- Direct: ""Je suis ici.""  
+  Indirect: Il dit qu'il est la.
+
+### Points sensibles
+- demain -> le lendemain
+- ici -> la
+- maintenant -> alors","[""discours-indirect"", ""concordance""]"
+temps-verbaux,Futur proche vs futur simple,B1,Choisir entre intention immediate et projection plus neutre.,"### Formation
+- Futur proche: **aller au present + infinitif**.
+- Futur simple: **radical futur + terminaisons** (ai, as, a, ons, ez, ont).
+
+### Usage
+- Futur proche: action imminente ou decidee.
+- Futur simple: prediction, plan, style plus formel.
+
+### Exemples
+- Je vais commencer maintenant.
+- Je commencerai demain matin.
+- Nous allons revoir le chapitre 3.
+- Nous reverrons ce point en classe.","[""futur"", ""registre""]"
+temps-verbaux,Conditionnel passe,B2,"Exprimer un regret, une hypothese non realisee ou une information non confirmee.","### Formation
+Auxiliaire au conditionnel present + participe passe.
+
+### Exemples
+- J'aurais revise davantage.
+- Elle serait venue plus tot.
+- Nous aurions compris avec plus d'exemples.
+
+### Cas frequents au TCF
+- Regret: J'aurais du verifier l'orthographe.
+- Hypothese non realisee: Si j'avais eu plus de temps, j'aurais termine.","[""conditionnel-passe"", ""hypothese""]"
+temps-verbaux,Conjugaison des verbes irreguliers essentiels,B2,"Memoriser les formes frequentes de etre, avoir, aller, faire, venir, pouvoir, devoir, vouloir.","### Verbes a prioriser
+- etre, avoir, aller, faire
+- venir, pouvoir, devoir, vouloir, prendre, savoir
+
+### Strategie
+1. Apprendre les formes du present.
+2. Ajouter imparfait et futur simple.
+3. Automatiser conditionnel et subjonctif.
+
+### Exemples
+- Il faut que je **sois** ponctuel.
+- Nous **aurons** plus de temps demain.
+- Je **voudrais** clarifier cette idee.
+- Bien qu'il **vienne** tard, il participe.","[""irreguliers"", ""conjugaison""]"
+regles-grammaire,Prepositions de lieu et de temps,A2,"Employer correctement a, en, dans, depuis, pendant, pour.","### Regles principales
+- Lieu: a Paris, en France, dans la salle, chez le medecin.
+- Temps: pendant deux heures, depuis lundi, pour demain.
+
+### Exemples
+- J'habite en ville mais je travaille a la campagne.
+- Il etudie dans la bibliotheque depuis 8 heures.
+- Nous preparons cette tache pour vendredi.
+- Elle reste chez sa tante pendant les vacances.
+
+### Pieges
+- depuis + point de depart, pas une duree fermee.
+- dans peut exprimer un delai futur: dans deux jours.","[""prepositions"", ""a2""]"
+regles-grammaire,Voix active et voix passive,B2,Transformer une phrase active en passive pour varier le style.,"### Formation
+Passif = etre conjugue + participe passe (+ par + agent).
+
+### Exemples
+- Active: Le jury evalue le texte.
+- Passive: Le texte est evalue par le jury.
+- Active: On corrige les erreurs.
+- Passive: Les erreurs sont corrigees.
+
+### Usage
+Le passif met en avant l'objet de l'action et donne un style plus formel.","[""voix-passive"", ""transformation""]"
+regles-grammaire,"Cause, consequence et but",B1,Structurer un raisonnement avec des connecteurs precis.,"### Cause
+- parce que, car, puisque
+### Consequence
+- donc, alors, c'est pourquoi
+### But
+- pour, afin de, afin que
+
+### Exemples
+- Je revise chaque jour car je veux progresser.
+- Le sujet est complexe, donc je fais un plan detaille.
+- Je relis mon texte afin d'eviter les erreurs.
+- Nous reformulons afin que le message soit clair.","[""cause"", ""consequence"", ""but""]"
+regles-grammaire,Discours indirect: questions et ordres,B2,Rapporter des questions et des consignes avec precision.,"### Questions
+- Direct: Il demande: ""Ou habites-tu ?""
+- Indirect: Il demande ou j'habite.
+
+### Ordres
+- Direct: Le professeur dit: ""Relisez ce paragraphe.""
+- Indirect: Le professeur dit de relire ce paragraphe.
+
+### Exemples supplementaires
+- Elle demande si nous avons termine.
+- Ils demandent quand l'examen commence.
+- On nous conseille de structurer chaque argument.","[""discours-indirect"", ""questions"", ""ordres""]"
+temps-verbaux,Participe present,B1,Former le participe present et l'utiliser en contexte.,"### Formation reguliere
+Radical de nous au present + ant.
+- parler -> parlant
+- finir -> finissant
+- vendre -> vendant
+
+### Irreguliers utiles
+- etre -> etant
+- avoir -> ayant
+- savoir -> sachant
+
+### Exemples
+- En preparant un plan, je gagne du temps.
+- Ayant relu son texte, elle a corrige plusieurs fautes.","[""participe-present"", ""formation""]"
+temps-verbaux,Passe recent,A2,Exprimer une action qui vient de se produire.,"### Formation
+venir au present + de + infinitif.
+
+### Exemples
+- Je viens de finir la redaction.
+- Nous venons de recevoir la convocation.
+- Elle vient de corriger son paragraphe.
+
+### Astuce
+Le passe recent est frequent a l'oral et utile pour raconter rapidement une sequence.","[""passe-recent"", ""a2""]"
+temps-verbaux,Futur anterieur,B2,Exprimer une action accomplie avant une autre action future.,"### Formation
+Auxiliaire au futur simple + participe passe.
+
+### Exemples
+- Quand j'aurai termine, je relirai mon texte.
+- Nous serons plus confiants apres avoir revise.
+- Des qu'il aura recu les resultats, il vous ecrira.
+
+### Usage
+Le futur anterieur est utile pour marquer l'anteriorite dans un plan d'action.","[""futur-anterieur"", ""b2""]"
+temps-verbaux,Subjonctif passe,B2,Exprimer l'anteriorite dans un contexte au subjonctif.,"### Formation
+Auxiliaire au subjonctif present + participe passe.
+
+### Exemples
+- Je suis content que tu aies reussi.
+- Bien qu'il soit arrive tard, il a participe.
+- Nous regrettons qu'ils n'aient pas pu venir.
+
+### Irreguliers frequents
+- que j'aie eu
+- que je sois alle
+- qu'ils aient fait","[""subjonctif-passe"", ""b2""]"

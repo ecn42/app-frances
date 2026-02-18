@@ -1,0 +1,438 @@
+{
+  "metadata": {
+    "name": "tcf_pack_v1",
+    "version": "1.0.0",
+    "language": "fr",
+    "description": "Premier pack de contenu TCF: vocabulaire, grammaire, temps verbaux, conjugaison, QCM et expression ecrite."
+  },
+  "categories": [
+    {"slug": "vocabulaire", "nom": "Vocabulaire", "description": "Mots essentiels classes par themes et niveaux."},
+    {"slug": "grammaire", "nom": "Grammaire", "description": "Fiches pratiques pour les structures de base."},
+    {"slug": "regles-grammaire", "nom": "Regles de grammaire", "description": "Regles detaillees avec exemples et pieges frequents."},
+    {"slug": "temps-verbaux", "nom": "Temps verbaux", "description": "Usage des temps: present, passe, futur, conditionnel."},
+    {"slug": "conjugaison", "nom": "Conjugaison", "description": "Conjugaisons par verbe et par temps."},
+    {"slug": "qcm", "nom": "QCM", "description": "Questions a choix multiple corrigees."},
+    {"slug": "expression-ecrite", "nom": "Expression ecrite", "description": "Sujets et methode pour le TCF ecrit."}
+  ],
+  "lessons": [
+    {
+      "category_slug": "grammaire",
+      "titre": "Articles definis et indefinis",
+      "niveau": "A2",
+      "resume": "Choisir entre le/la/les et un/une/des.",
+      "contenu_markdown": "Utilise **le/la/les** pour une information connue.\n\nUtilise **un/une/des** pour introduire une information nouvelle.\n\nExemple: *J'ai achete un livre. Le livre est utile.*",
+      "tags": ["articles", "determinants"]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Articles partitifs",
+      "niveau": "A2",
+      "resume": "Employer du, de la, de l', des pour les quantites non comptables.",
+      "contenu_markdown": "Le partitif exprime une partie d'un tout.\n\n- du pain\n- de la soupe\n- de l'eau\n\nApres negation, on emploie souvent **de**: *Je ne mange pas de pain.*",
+      "tags": ["partitif", "quantite"]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Negation simple",
+      "niveau": "A2",
+      "resume": "Construire ne...pas correctement.",
+      "contenu_markdown": "La negation encadre le verbe conjugue: *Je ne parle pas vite.*\n\nAvec infinitif: *ne pas + infinitif*.",
+      "tags": ["negation"]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Comparatif et superlatif",
+      "niveau": "A2",
+      "resume": "Comparer des personnes, objets, situations.",
+      "contenu_markdown": "Comparatif: **plus/moins/aussi ... que**.\n\nSuperlatif: **le plus/le moins**.\n\nIrreguliers: meilleur, mieux.",
+      "tags": ["comparatif", "superlatif"]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Pronoms personnels sujet",
+      "niveau": "A1",
+      "resume": "Je, tu, il/elle, nous, vous, ils/elles.",
+      "contenu_markdown": "Les pronoms sujet remplacent le nom du sujet.\n\nExemple: *Marie travaille* -> *Elle travaille*.",
+      "tags": ["pronoms", "sujet"]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Question directe",
+      "niveau": "A2",
+      "resume": "Poser une question avec est-ce que, inversion, intonation.",
+      "contenu_markdown": "Trois formes utiles:\n\n- *Tu viens ?*\n- *Est-ce que tu viens ?*\n- *Viens-tu ?*",
+      "tags": ["question"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms COD et COI",
+      "niveau": "B1",
+      "resume": "Le/la/les vs lui/leur.",
+      "contenu_markdown": "COD: complement direct.\n\nCOI: complement introduit par **a**.\n\nExemple: *Je vois Paul -> Je le vois.*\n\n*Je parle a Paul -> Je lui parle.*",
+      "tags": ["pronoms", "cod", "coi"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms y et en",
+      "niveau": "B1",
+      "resume": "Remplacer les complements avec y et en.",
+      "contenu_markdown": "**y** remplace souvent un lieu ou *a + chose*.\n\n**en** remplace *de + chose* ou une quantite.\n\nExemple: *Tu vas a Paris ? J'y vais.*",
+      "tags": ["y", "en", "pronoms"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms relatifs",
+      "niveau": "B1",
+      "resume": "Employer qui, que, dont, ou.",
+      "contenu_markdown": "- **qui**: sujet\n- **que**: COD\n- **dont**: de + nom\n- **ou**: lieu/temps",
+      "tags": ["relatifs", "phrase-complexe"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Concordance des temps",
+      "niveau": "B2",
+      "resume": "Maintenir la logique temporelle dans une phrase complexe.",
+      "contenu_markdown": "Quand le verbe principal est au passe, adapte le temps de la subordonnee selon le sens.\n\nExemple: *Il a dit qu'il viendrait.*",
+      "tags": ["concordance", "b2"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Declencheurs du subjonctif",
+      "niveau": "B2",
+      "resume": "Expressions de necessite, doute, sentiment.",
+      "contenu_markdown": "Apres **il faut que**, **bien que**, **je veux que**, on utilise le subjonctif.\n\nExemple: *Il faut que tu fasses cet exercice.*",
+      "tags": ["subjonctif"]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Connecteurs logiques",
+      "niveau": "B2",
+      "resume": "Structurer un texte argumentatif.",
+      "contenu_markdown": "Addition: de plus.\nOpposition: cependant.\nCause: car.\nConsequence: donc.\nConcession: pourtant.",
+      "tags": ["connecteurs", "argumentation"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Present de l'indicatif",
+      "niveau": "A1",
+      "resume": "Decrire une habitude, une action actuelle, une verite generale.",
+      "contenu_markdown": "Le present est le temps de base de la communication.\n\nExemple: *Je revise chaque soir.*",
+      "tags": ["present"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Passe compose",
+      "niveau": "A2",
+      "resume": "Exprimer une action ponctuelle terminee.",
+      "contenu_markdown": "Auxiliaire **etre/avoir** + participe passe.\n\nExemple: *J'ai termine mes devoirs.*",
+      "tags": ["passe-compose"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Imparfait",
+      "niveau": "A2",
+      "resume": "Exprimer un contexte, une habitude, une description dans le passe.",
+      "contenu_markdown": "Exemple: *Quand j'etais petit, je lisais beaucoup.*",
+      "tags": ["imparfait"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Imparfait vs passe compose",
+      "niveau": "B1",
+      "resume": "Combiner contexte et action ponctuelle.",
+      "contenu_markdown": "Imparfait = decor.\nPasse compose = evenement.\n\nExemple: *Il pleuvait quand je suis sorti.*",
+      "tags": ["imparfait", "passe-compose"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Futur simple",
+      "niveau": "A2",
+      "resume": "Parler d'une action a venir.",
+      "contenu_markdown": "Exemple: *Demain, je reviserai la comprehension orale.*",
+      "tags": ["futur-simple"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Conditionnel present",
+      "niveau": "B1",
+      "resume": "Exprimer une hypothese, une demande polie, un souhait.",
+      "contenu_markdown": "Exemple: *Je voudrais plus d'exemples.*\n\nStructure utile: *Si + imparfait, conditionnel*.",
+      "tags": ["conditionnel"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Subjonctif present",
+      "niveau": "B2",
+      "resume": "Exprimer necessite, doute, emotion.",
+      "contenu_markdown": "Exemple: *Il faut que nous soyons prets.*",
+      "tags": ["subjonctif"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Plus-que-parfait",
+      "niveau": "B1",
+      "resume": "Exprimer une action anterieure a une autre action passee.",
+      "contenu_markdown": "Forme: imparfait de l'auxiliaire + participe passe.\n\nExemple: *Il avait deja fini quand je suis arrive.*",
+      "tags": ["plus-que-parfait"]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Gerondif",
+      "niveau": "B1",
+      "resume": "Exprimer la simultaneite ou la maniere.",
+      "contenu_markdown": "Forme: **en + participe present**.\n\nExemple: *Il apprend en lisant.*",
+      "tags": ["gerondif"]
+    }
+  ],
+  "vocabulary": [
+    {"mot": "ameliorer", "definition_fr": "Rendre meilleur, progresser.", "traduction_en": "to improve", "exemple_fr": "Je veux ameliorer mon expression ecrite.", "niveau": "B1", "theme": "Etudes"},
+    {"mot": "objectif", "definition_fr": "But a atteindre.", "traduction_en": "goal", "exemple_fr": "Mon objectif est d'obtenir le niveau B2.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "defi", "definition_fr": "Difficulte a surmonter.", "traduction_en": "challenge", "exemple_fr": "Le TCF est un defi exigeant.", "niveau": "A2", "theme": "Examens"},
+    {"mot": "rigoureux", "definition_fr": "Tres precis et serieux.", "traduction_en": "rigorous", "exemple_fr": "Il faut etre rigoureux en grammaire.", "niveau": "B1", "theme": "Etudes"},
+    {"mot": "coherent", "definition_fr": "Logique et bien organise.", "traduction_en": "coherent", "exemple_fr": "Ton argumentation est coherente.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "nuancer", "definition_fr": "Exprimer une idee avec precision.", "traduction_en": "to nuance", "exemple_fr": "Il faut nuancer son opinion.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "pertinent", "definition_fr": "Adapte au sujet.", "traduction_en": "relevant", "exemple_fr": "Ton exemple est pertinent.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "enjeu", "definition_fr": "Ce qui est important dans une situation.", "traduction_en": "issue", "exemple_fr": "L'enjeu principal est la clarte du texte.", "niveau": "B2", "theme": "Examens"},
+    {"mot": "consigne", "definition_fr": "Instruction precise a suivre.", "traduction_en": "instruction", "exemple_fr": "Lis bien la consigne avant d'ecrire.", "niveau": "A2", "theme": "Examens"},
+    {"mot": "barreme", "definition_fr": "Systeme de notation.", "traduction_en": "grading scale", "exemple_fr": "Le bareme du TCF est detaille.", "niveau": "B1", "theme": "Examens"},
+    {"mot": "synthese", "definition_fr": "Resume clair des idees essentielles.", "traduction_en": "summary", "exemple_fr": "La synthese finale doit etre concise.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "argument", "definition_fr": "Raison pour soutenir une opinion.", "traduction_en": "argument", "exemple_fr": "Chaque paragraphe doit contenir un argument.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "justifier", "definition_fr": "Expliquer avec des raisons.", "traduction_en": "to justify", "exemple_fr": "Tu dois justifier ta position.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "avantage", "definition_fr": "Point positif.", "traduction_en": "advantage", "exemple_fr": "L'apprentissage en ligne offre plusieurs avantages.", "niveau": "A2", "theme": "Societe"},
+    {"mot": "inconvenient", "definition_fr": "Point negatif.", "traduction_en": "drawback", "exemple_fr": "Le principal inconvenient est l'isolement.", "niveau": "A2", "theme": "Societe"},
+    {"mot": "disponible", "definition_fr": "Que l'on peut utiliser ou consulter.", "traduction_en": "available", "exemple_fr": "Les ressources sont disponibles en ligne.", "niveau": "A2", "theme": "Technologie"},
+    {"mot": "acceder", "definition_fr": "Pouvoir entrer ou utiliser.", "traduction_en": "to access", "exemple_fr": "Je peux acceder aux cours sur mon telephone.", "niveau": "B1", "theme": "Technologie"},
+    {"mot": "plateforme", "definition_fr": "Service numerique pour apprendre.", "traduction_en": "platform", "exemple_fr": "Cette plateforme propose des exercices adaptes.", "niveau": "A2", "theme": "Technologie"},
+    {"mot": "interactif", "definition_fr": "Qui implique une participation active.", "traduction_en": "interactive", "exemple_fr": "Le cours interactif motive les etudiants.", "niveau": "B1", "theme": "Technologie"},
+    {"mot": "autonome", "definition_fr": "Capable de travailler seul.", "traduction_en": "independent", "exemple_fr": "Je suis plus autonome dans mon apprentissage.", "niveau": "B1", "theme": "Etudes"},
+    {"mot": "motivation", "definition_fr": "Energie interieure pour agir.", "traduction_en": "motivation", "exemple_fr": "La motivation est essentielle pour progresser.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "constance", "definition_fr": "Regularite dans l'effort.", "traduction_en": "consistency", "exemple_fr": "La constance apporte de meilleurs resultats.", "niveau": "B2", "theme": "Etudes"},
+    {"mot": "progres", "definition_fr": "Amelioration au fil du temps.", "traduction_en": "progress", "exemple_fr": "Je vois des progres chaque semaine.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "evaluer", "definition_fr": "Mesurer un niveau ou une qualite.", "traduction_en": "to evaluate", "exemple_fr": "Le professeur evalue la coherence du texte.", "niveau": "B1", "theme": "Examens"},
+    {"mot": "corriger", "definition_fr": "Identifier et reparer une erreur.", "traduction_en": "to correct", "exemple_fr": "Je corrige mes fautes de grammaire.", "niveau": "A2", "theme": "Examens"},
+    {"mot": "orthographe", "definition_fr": "Maniere correcte d'ecrire les mots.", "traduction_en": "spelling", "exemple_fr": "Mon orthographe s'ameliore.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "syntaxe", "definition_fr": "Organisation des mots dans la phrase.", "traduction_en": "syntax", "exemple_fr": "La syntaxe de cette phrase est correcte.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "registre", "definition_fr": "Niveau de langue selon le contexte.", "traduction_en": "register", "exemple_fr": "Le registre doit rester formel.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "cohesion", "definition_fr": "Lien entre les phrases d'un texte.", "traduction_en": "cohesion", "exemple_fr": "La cohesion renforce la clarte du texte.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "connecteur", "definition_fr": "Mot qui relie les idees.", "traduction_en": "connector", "exemple_fr": "Utilise des connecteurs varies.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "cependant", "definition_fr": "Mot pour exprimer une opposition.", "traduction_en": "however", "exemple_fr": "Le sujet est difficile; cependant, il est interessant.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "donc", "definition_fr": "Mot qui exprime une consequence.", "traduction_en": "therefore", "exemple_fr": "Il s'entraine, donc il progresse.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "neanmoins", "definition_fr": "Mot de concession au registre soutenu.", "traduction_en": "nevertheless", "exemple_fr": "Le delai est court; neanmoins, je vais terminer.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "fiable", "definition_fr": "En qui on peut avoir confiance.", "traduction_en": "reliable", "exemple_fr": "Cette source est fiable.", "niveau": "B1", "theme": "Travail"},
+    {"mot": "efficace", "definition_fr": "Qui produit de bons resultats.", "traduction_en": "effective", "exemple_fr": "Cette methode est efficace.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "rentable", "definition_fr": "Qui rapporte plus qu'il ne coute.", "traduction_en": "cost-effective", "exemple_fr": "La formation en ligne est rentable.", "niveau": "B2", "theme": "Travail"},
+    {"mot": "adapter", "definition_fr": "Modifier selon le besoin.", "traduction_en": "to adapt", "exemple_fr": "Il faut adapter son style au sujet.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "anticiper", "definition_fr": "Prevoir a l'avance.", "traduction_en": "to anticipate", "exemple_fr": "J'anticipe les difficultes de l'examen.", "niveau": "B2", "theme": "Examens"},
+    {"mot": "rediger", "definition_fr": "Ecrire de maniere organisee.", "traduction_en": "to draft", "exemple_fr": "Je redige un plan avant le texte final.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "reformuler", "definition_fr": "Dire autrement.", "traduction_en": "to rephrase", "exemple_fr": "Je reformule l'idee pour plus de clarte.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "convaincant", "definition_fr": "Qui persuade efficacement.", "traduction_en": "convincing", "exemple_fr": "Ton exemple est convaincant.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "nuance", "definition_fr": "Difference fine entre deux idees.", "traduction_en": "nuance", "exemple_fr": "Il manque une nuance dans ton argument.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "clarte", "definition_fr": "Qualite de ce qui est facile a comprendre.", "traduction_en": "clarity", "exemple_fr": "La clarte est indispensable dans un essai.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "precision", "definition_fr": "Exactitude dans les mots utilises.", "traduction_en": "precision", "exemple_fr": "La precision du vocabulaire est evaluee.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "structure", "definition_fr": "Organisation generale d'un texte.", "traduction_en": "structure", "exemple_fr": "La structure en trois parties est efficace.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "conclusion", "definition_fr": "Derniere partie qui ferme le texte.", "traduction_en": "conclusion", "exemple_fr": "La conclusion doit ouvrir une perspective.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "introduction", "definition_fr": "Partie initiale qui presente le sujet.", "traduction_en": "introduction", "exemple_fr": "L'introduction annonce la problematique.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "problematique", "definition_fr": "Question centrale d'un debat.", "traduction_en": "problem statement", "exemple_fr": "La problematique doit etre claire des le debut.", "niveau": "B2", "theme": "Expression"},
+    {"mot": "transition", "definition_fr": "Phrase qui relie deux parties.", "traduction_en": "transition", "exemple_fr": "Ajoute une transition entre tes paragraphes.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "fluide", "definition_fr": "Qui se lit facilement, sans rupture.", "traduction_en": "fluid", "exemple_fr": "Le texte est fluide et agreable a lire.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "hesitation", "definition_fr": "Manque de certitude.", "traduction_en": "hesitation", "exemple_fr": "Evite les hesitations dans ta these.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "soutenir", "definition_fr": "Defendre une idee.", "traduction_en": "to support", "exemple_fr": "Je soutiens cette proposition avec deux arguments.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "contester", "definition_fr": "Refuser ou critiquer une idee.", "traduction_en": "to challenge", "exemple_fr": "Il conteste cette decision.", "niveau": "B2", "theme": "Societe"},
+    {"mot": "priorite", "definition_fr": "Ce qui doit etre traite en premier.", "traduction_en": "priority", "exemple_fr": "Ma priorite est l'orthographe.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "delai", "definition_fr": "Temps limite pour terminer.", "traduction_en": "deadline", "exemple_fr": "Le delai de redaction est de 30 minutes.", "niveau": "B1", "theme": "Examens"},
+    {"mot": "resultat", "definition_fr": "Ce qu'on obtient apres un effort.", "traduction_en": "result", "exemple_fr": "Le resultat depend de la preparation.", "niveau": "A2", "theme": "Examens"},
+    {"mot": "simulation", "definition_fr": "Exercice qui imite l'examen reel.", "traduction_en": "mock test", "exemple_fr": "Je fais une simulation chaque week-end.", "niveau": "B1", "theme": "Examens"},
+    {"mot": "retroaction", "definition_fr": "Commentaire utile pour progresser.", "traduction_en": "feedback", "exemple_fr": "La retroaction du professeur est precise.", "niveau": "B2", "theme": "Etudes"},
+    {"mot": "methodique", "definition_fr": "Organise et logique dans la maniere de travailler.", "traduction_en": "methodical", "exemple_fr": "Une revision methodique est plus efficace.", "niveau": "B2", "theme": "Etudes"},
+    {"mot": "resumer", "definition_fr": "Presenter l'essentiel en peu de mots.", "traduction_en": "to summarize", "exemple_fr": "Savoir resumer est utile pour le TCF.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "developper", "definition_fr": "Expliquer en detail.", "traduction_en": "to develop", "exemple_fr": "Developpe ton deuxieme argument.", "niveau": "A2", "theme": "Expression"},
+    {"mot": "illustrer", "definition_fr": "Montrer par un exemple.", "traduction_en": "to illustrate", "exemple_fr": "Illustre ton idee avec une experience concrete.", "niveau": "B1", "theme": "Expression"},
+    {"mot": "convivial", "definition_fr": "Agreable et chaleureux.", "traduction_en": "friendly", "exemple_fr": "L'environnement d'etude est convivial.", "niveau": "B1", "theme": "Societe"},
+    {"mot": "epanouissement", "definition_fr": "Developpement personnel positif.", "traduction_en": "fulfillment", "exemple_fr": "La lecture contribue a mon epanouissement.", "niveau": "B2", "theme": "Societe"},
+    {"mot": "collaboratif", "definition_fr": "Qui se fait avec d'autres personnes.", "traduction_en": "collaborative", "exemple_fr": "Le travail collaboratif stimule les idees.", "niveau": "B2", "theme": "Travail"},
+    {"mot": "responsable", "definition_fr": "Qui assume ses decisions et ses actions.", "traduction_en": "responsible", "exemple_fr": "Un etudiant responsable planifie sa revision.", "niveau": "A2", "theme": "Etudes"},
+    {"mot": "assiduite", "definition_fr": "Presence et regularite dans le travail.", "traduction_en": "diligence", "exemple_fr": "L'assiduite aide a monter en niveau.", "niveau": "B2", "theme": "Etudes"},
+    {"mot": "souplesse", "definition_fr": "Capacite a s'adapter facilement.", "traduction_en": "flexibility", "exemple_fr": "La formation a distance offre plus de souplesse.", "niveau": "B1", "theme": "Technologie"},
+    {"mot": "ressource", "definition_fr": "Outil ou document utile.", "traduction_en": "resource", "exemple_fr": "Cette ressource explique bien le subjonctif.", "niveau": "A2", "theme": "Technologie"}
+  ],
+  "verb_conjugations": [
+    {"infinitif": "etre", "temps": "present", "niveau": "A1", "formes": {"je": "suis", "tu": "es", "il/elle": "est", "nous": "sommes", "vous": "etes", "ils/elles": "sont"}},
+    {"infinitif": "etre", "temps": "imparfait", "niveau": "A2", "formes": {"je": "etais", "tu": "etais", "il/elle": "etait", "nous": "etions", "vous": "etiez", "ils/elles": "etaient"}},
+    {"infinitif": "etre", "temps": "futur simple", "niveau": "A2", "formes": {"je": "serai", "tu": "seras", "il/elle": "sera", "nous": "serons", "vous": "serez", "ils/elles": "seront"}},
+    {"infinitif": "etre", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "serais", "tu": "serais", "il/elle": "serait", "nous": "serions", "vous": "seriez", "ils/elles": "seraient"}},
+
+    {"infinitif": "avoir", "temps": "present", "niveau": "A1", "formes": {"je": "ai", "tu": "as", "il/elle": "a", "nous": "avons", "vous": "avez", "ils/elles": "ont"}},
+    {"infinitif": "avoir", "temps": "imparfait", "niveau": "A2", "formes": {"je": "avais", "tu": "avais", "il/elle": "avait", "nous": "avions", "vous": "aviez", "ils/elles": "avaient"}},
+    {"infinitif": "avoir", "temps": "futur simple", "niveau": "A2", "formes": {"je": "aurai", "tu": "auras", "il/elle": "aura", "nous": "aurons", "vous": "aurez", "ils/elles": "auront"}},
+    {"infinitif": "avoir", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "aurais", "tu": "aurais", "il/elle": "aurait", "nous": "aurions", "vous": "auriez", "ils/elles": "auraient"}},
+
+    {"infinitif": "aller", "temps": "present", "niveau": "A1", "formes": {"je": "vais", "tu": "vas", "il/elle": "va", "nous": "allons", "vous": "allez", "ils/elles": "vont"}},
+    {"infinitif": "aller", "temps": "imparfait", "niveau": "A2", "formes": {"je": "allais", "tu": "allais", "il/elle": "allait", "nous": "allions", "vous": "alliez", "ils/elles": "allaient"}},
+    {"infinitif": "aller", "temps": "futur simple", "niveau": "A2", "formes": {"je": "irai", "tu": "iras", "il/elle": "ira", "nous": "irons", "vous": "irez", "ils/elles": "iront"}},
+    {"infinitif": "aller", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "irais", "tu": "irais", "il/elle": "irait", "nous": "irions", "vous": "iriez", "ils/elles": "iraient"}},
+
+    {"infinitif": "faire", "temps": "present", "niveau": "A1", "formes": {"je": "fais", "tu": "fais", "il/elle": "fait", "nous": "faisons", "vous": "faites", "ils/elles": "font"}},
+    {"infinitif": "faire", "temps": "imparfait", "niveau": "A2", "formes": {"je": "faisais", "tu": "faisais", "il/elle": "faisait", "nous": "faisions", "vous": "faisiez", "ils/elles": "faisaient"}},
+    {"infinitif": "faire", "temps": "futur simple", "niveau": "A2", "formes": {"je": "ferai", "tu": "feras", "il/elle": "fera", "nous": "ferons", "vous": "ferez", "ils/elles": "feront"}},
+    {"infinitif": "faire", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "ferais", "tu": "ferais", "il/elle": "ferait", "nous": "ferions", "vous": "feriez", "ils/elles": "feraient"}},
+
+    {"infinitif": "prendre", "temps": "present", "niveau": "A2", "formes": {"je": "prends", "tu": "prends", "il/elle": "prend", "nous": "prenons", "vous": "prenez", "ils/elles": "prennent"}},
+    {"infinitif": "prendre", "temps": "imparfait", "niveau": "A2", "formes": {"je": "prenais", "tu": "prenais", "il/elle": "prenait", "nous": "prenions", "vous": "preniez", "ils/elles": "prenaient"}},
+    {"infinitif": "prendre", "temps": "futur simple", "niveau": "B1", "formes": {"je": "prendrai", "tu": "prendras", "il/elle": "prendra", "nous": "prendrons", "vous": "prendrez", "ils/elles": "prendront"}},
+    {"infinitif": "prendre", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "prendrais", "tu": "prendrais", "il/elle": "prendrait", "nous": "prendrions", "vous": "prendriez", "ils/elles": "prendraient"}},
+
+    {"infinitif": "venir", "temps": "present", "niveau": "A2", "formes": {"je": "viens", "tu": "viens", "il/elle": "vient", "nous": "venons", "vous": "venez", "ils/elles": "viennent"}},
+    {"infinitif": "venir", "temps": "imparfait", "niveau": "A2", "formes": {"je": "venais", "tu": "venais", "il/elle": "venait", "nous": "venions", "vous": "veniez", "ils/elles": "venaient"}},
+    {"infinitif": "venir", "temps": "futur simple", "niveau": "B1", "formes": {"je": "viendrai", "tu": "viendras", "il/elle": "viendra", "nous": "viendrons", "vous": "viendrez", "ils/elles": "viendront"}},
+    {"infinitif": "venir", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "viendrais", "tu": "viendrais", "il/elle": "viendrait", "nous": "viendrions", "vous": "viendriez", "ils/elles": "viendraient"}},
+
+    {"infinitif": "pouvoir", "temps": "present", "niveau": "A2", "formes": {"je": "peux", "tu": "peux", "il/elle": "peut", "nous": "pouvons", "vous": "pouvez", "ils/elles": "peuvent"}},
+    {"infinitif": "pouvoir", "temps": "imparfait", "niveau": "B1", "formes": {"je": "pouvais", "tu": "pouvais", "il/elle": "pouvait", "nous": "pouvions", "vous": "pouviez", "ils/elles": "pouvaient"}},
+    {"infinitif": "pouvoir", "temps": "futur simple", "niveau": "B1", "formes": {"je": "pourrai", "tu": "pourras", "il/elle": "pourra", "nous": "pourrons", "vous": "pourrez", "ils/elles": "pourront"}},
+    {"infinitif": "pouvoir", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "pourrais", "tu": "pourrais", "il/elle": "pourrait", "nous": "pourrions", "vous": "pourriez", "ils/elles": "pourraient"}},
+
+    {"infinitif": "devoir", "temps": "present", "niveau": "A2", "formes": {"je": "dois", "tu": "dois", "il/elle": "doit", "nous": "devons", "vous": "devez", "ils/elles": "doivent"}},
+    {"infinitif": "devoir", "temps": "imparfait", "niveau": "B1", "formes": {"je": "devais", "tu": "devais", "il/elle": "devait", "nous": "devions", "vous": "deviez", "ils/elles": "devaient"}},
+    {"infinitif": "devoir", "temps": "futur simple", "niveau": "B1", "formes": {"je": "devrai", "tu": "devras", "il/elle": "devra", "nous": "devrons", "vous": "devrez", "ils/elles": "devront"}},
+    {"infinitif": "devoir", "temps": "conditionnel present", "niveau": "B1", "formes": {"je": "devrais", "tu": "devrais", "il/elle": "devrait", "nous": "devrions", "vous": "devriez", "ils/elles": "devraient"}}
+  ],
+  "exercises": [
+    {"type": "qcm", "theme": "Articles", "niveau": "A2", "question": "Je voudrais ___ eau minerale.", "options": ["de", "du", "de la", "des"], "answer_index": 2, "explication": "Eau est feminin singulier: de la.", "lesson_category_slug": "grammaire", "lesson_titre": "Articles partitifs"},
+    {"type": "qcm", "theme": "Articles", "niveau": "A2", "question": "Je ne bois pas ___ cafe le soir.", "options": ["du", "de", "des", "le"], "answer_index": 1, "explication": "Apres negation, on emploie souvent de.", "lesson_category_slug": "grammaire", "lesson_titre": "Articles partitifs"},
+    {"type": "qcm", "theme": "Negation", "niveau": "A2", "question": "Nous ne voyons ___ dans la salle.", "options": ["rien", "personne", "jamais", "plus"], "answer_index": 1, "explication": "Pour les personnes: ne...personne.", "lesson_category_slug": "grammaire", "lesson_titre": "Negation simple"},
+    {"type": "qcm", "theme": "Negation", "niveau": "A2", "question": "Choisis la phrase correcte.", "options": ["Je ne mange jamais rien.", "Je ne jamais mange rien.", "Je mange ne jamais rien.", "Jamais je ne rien mange."], "answer_index": 0, "explication": "La negation entoure le verbe.", "lesson_category_slug": "grammaire", "lesson_titre": "Negation simple"},
+    {"type": "qcm", "theme": "Comparatif", "niveau": "A2", "question": "Ce cours est ___ utile que l'autre.", "options": ["plus", "le plus", "mieux", "meilleur"], "answer_index": 0, "explication": "Comparatif de superiorite: plus ... que.", "lesson_category_slug": "grammaire", "lesson_titre": "Comparatif et superlatif"},
+    {"type": "qcm", "theme": "Comparatif", "niveau": "A2", "question": "Paul court ___ que moi.", "options": ["mieux", "meilleur", "plus bon", "plus bien"], "answer_index": 0, "explication": "Comparatif de bien -> mieux.", "lesson_category_slug": "grammaire", "lesson_titre": "Comparatif et superlatif"},
+    {"type": "qcm", "theme": "Pronoms", "niveau": "B1", "question": "Je parle a mes parents. Je ___ parle.", "options": ["les", "leur", "lui", "en"], "answer_index": 1, "explication": "COI pluriel: leur.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms COD et COI"},
+    {"type": "qcm", "theme": "Pronoms", "niveau": "B1", "question": "Je vois mes amis. Je ___ vois.", "options": ["leur", "les", "en", "lui"], "answer_index": 1, "explication": "COD pluriel: les.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms COD et COI"},
+    {"type": "qcm", "theme": "Pronoms", "niveau": "B1", "question": "Tu vas a la bibliotheque? Oui, j'___ vais.", "options": ["en", "y", "la", "leur"], "answer_index": 1, "explication": "Lieu introduit par a -> y.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms y et en"},
+    {"type": "qcm", "theme": "Pronoms", "niveau": "B1", "question": "Tu as besoin de ce livre? Oui, j'___ ai besoin.", "options": ["y", "en", "le", "lui"], "answer_index": 1, "explication": "Besoin de -> en.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms y et en"},
+    {"type": "qcm", "theme": "Relatifs", "niveau": "B1", "question": "Le livre ___ est sur la table est a moi.", "options": ["qui", "que", "dont", "ou"], "answer_index": 0, "explication": "Qui remplace le sujet.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms relatifs"},
+    {"type": "qcm", "theme": "Relatifs", "niveau": "B1", "question": "La ville ___ je prefere est Lille.", "options": ["qui", "que", "dont", "ou"], "answer_index": 1, "explication": "Que remplace le COD.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms relatifs"},
+    {"type": "qcm", "theme": "Relatifs", "niveau": "B1", "question": "Le sujet ___ nous parlons est important.", "options": ["qui", "que", "dont", "ou"], "answer_index": 2, "explication": "Parler de -> dont.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms relatifs"},
+    {"type": "qcm", "theme": "Connecteurs", "niveau": "B2", "question": "Il revise beaucoup, ___ il progresse.", "options": ["cependant", "donc", "pourtant", "car"], "answer_index": 1, "explication": "Relation de consequence -> donc.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Connecteurs logiques"},
+    {"type": "qcm", "theme": "Connecteurs", "niveau": "B2", "question": "Le sujet est difficile; ___, je continue.", "options": ["donc", "car", "cependant", "ainsi"], "answer_index": 2, "explication": "Opposition -> cependant.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Connecteurs logiques"},
+    {"type": "qcm", "theme": "Present", "niveau": "A1", "question": "Nous ___ francais en classe.", "options": ["parlons", "parlez", "parle", "parler"], "answer_index": 0, "explication": "Avec nous, terminaison -ons.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Present de l'indicatif"},
+    {"type": "qcm", "theme": "Present", "niveau": "A1", "question": "Ils ___ a huit heures.", "options": ["arrive", "arrives", "arrivent", "arrivons"], "answer_index": 2, "explication": "Sujet pluriel: arrivent.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Present de l'indicatif"},
+    {"type": "qcm", "theme": "Passe compose", "niveau": "A2", "question": "Hier, j'___ mes devoirs.", "options": ["ai fini", "finissais", "finirai", "finirais"], "answer_index": 0, "explication": "Action ponctuelle terminee.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Passe compose"},
+    {"type": "qcm", "theme": "Passe compose", "niveau": "A2", "question": "Elles ___ tres tot.", "options": ["ont arrive", "sont arrivees", "sont arrive", "ont arrivees"], "answer_index": 1, "explication": "Avec etre, accord feminin pluriel.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Passe compose"},
+    {"type": "qcm", "theme": "Imparfait", "niveau": "A2", "question": "Quand j'etais enfant, je ___ beaucoup.", "options": ["ai lu", "lisais", "lirais", "lirai"], "answer_index": 1, "explication": "Habitude passee -> imparfait.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Imparfait"},
+    {"type": "qcm", "theme": "Imparfait", "niveau": "A2", "question": "Il ___ toujours en bus.", "options": ["allait", "est alle", "ira", "irait"], "answer_index": 0, "explication": "Habitude dans le passe -> imparfait.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Imparfait"},
+    {"type": "qcm", "theme": "Imparfait/Passe compose", "niveau": "B1", "question": "Il ___ quand le telephone a sonne.", "options": ["dormait", "a dormi", "dormira", "dormirait"], "answer_index": 0, "explication": "Action de fond en cours -> imparfait.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Imparfait vs passe compose"},
+    {"type": "qcm", "theme": "Imparfait/Passe compose", "niveau": "B1", "question": "Je ___ quand elle est entree.", "options": ["etudiais", "ai etudie", "etudierai", "etudierais"], "answer_index": 0, "explication": "Contexte en cours -> imparfait.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Imparfait vs passe compose"},
+    {"type": "qcm", "theme": "Futur", "niveau": "A2", "question": "Demain, nous ___ au cinema.", "options": ["allons", "irons", "allions", "irions"], "answer_index": 1, "explication": "Action future -> futur simple.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Futur simple"},
+    {"type": "qcm", "theme": "Futur", "niveau": "A2", "question": "Je ___ ce chapitre ce soir.", "options": ["termine", "terminais", "terminerai", "terminerais"], "answer_index": 2, "explication": "Futur simple en -rai.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Futur simple"},
+    {"type": "qcm", "theme": "Conditionnel", "niveau": "B1", "question": "Je ___ reserver une table.", "options": ["veux", "voudrais", "voudrai", "veux que"], "answer_index": 1, "explication": "Politesse -> conditionnel present.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Conditionnel present"},
+    {"type": "qcm", "theme": "Conditionnel", "niveau": "B1", "question": "Si j'avais plus de temps, je ___ plus.", "options": ["lirai", "lis", "lirais", "ai lu"], "answer_index": 2, "explication": "Si + imparfait -> conditionnel.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Conditionnel present"},
+    {"type": "qcm", "theme": "Subjonctif", "niveau": "B2", "question": "Il faut que tu ___ ce travail.", "options": ["finis", "finiras", "finisses", "as fini"], "answer_index": 2, "explication": "Apres il faut que -> subjonctif.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Subjonctif present"},
+    {"type": "qcm", "theme": "Subjonctif", "niveau": "B2", "question": "Bien qu'il ___ fatigue, il continue.", "options": ["est", "sera", "soit", "etait"], "answer_index": 2, "explication": "Bien que + subjonctif.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Subjonctif present"},
+    {"type": "qcm", "theme": "Plus-que-parfait", "niveau": "B1", "question": "Il ___ deja parti quand je suis arrive.", "options": ["est", "avait", "avait ete", "a"], "answer_index": 2, "explication": "Anterieur dans le passe: plus-que-parfait.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Plus-que-parfait"},
+    {"type": "qcm", "theme": "Gerondif", "niveau": "B1", "question": "Il apprend le vocabulaire ___ lisant des articles.", "options": ["en", "a", "de", "pour"], "answer_index": 0, "explication": "Gerondif: en + participe present.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Gerondif"},
+    {"type": "qcm", "theme": "Conjugaison", "niveau": "A1", "question": "Nous ___ prets pour le cours. (etre, present)", "options": ["sommes", "etes", "sont", "es"], "answer_index": 0, "explication": "Nous + etre -> sommes.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Present de l'indicatif"},
+    {"type": "qcm", "theme": "Conjugaison", "niveau": "A2", "question": "Je ___ au marche demain. (aller, futur simple)", "options": ["vais", "irai", "allais", "irais"], "answer_index": 1, "explication": "Futur simple d'aller: irai.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Futur simple"},
+    {"type": "qcm", "theme": "Conjugaison", "niveau": "B1", "question": "Vous ___ mieux travailler. (devoir, conditionnel)", "options": ["devrez", "devez", "devriez", "deviez"], "answer_index": 2, "explication": "Conditionnel present: vous devriez.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Conditionnel present"},
+    {"type": "qcm", "theme": "Conjugaison", "niveau": "A2", "question": "Ils ___ souvent en avance. (venir, imparfait)", "options": ["venaient", "viennent", "viendront", "viendraient"], "answer_index": 0, "explication": "Imparfait de venir: ils venaient.", "lesson_category_slug": "temps-verbaux", "lesson_titre": "Imparfait"},
+    {"type": "qcm", "theme": "Grammaire", "niveau": "B1", "question": "Choisis la phrase correcte.", "options": ["Je lui parle chaque jour.", "Je le parle chaque jour.", "Je parle lui chaque jour.", "Je parle le chaque jour."], "answer_index": 0, "explication": "Parler a quelqu'un -> lui.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms COD et COI"},
+    {"type": "qcm", "theme": "Grammaire", "niveau": "B1", "question": "Choisis la forme correcte.", "options": ["J'en vais.", "J'y vais.", "Je vais y le.", "Je vais en."], "answer_index": 1, "explication": "Aller a un lieu -> y.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Pronoms y et en"},
+    {"type": "qcm", "theme": "Expression", "niveau": "B2", "question": "Quel connecteur introduit une concession?", "options": ["donc", "car", "neanmoins", "ainsi"], "answer_index": 2, "explication": "Neanmoins marque une concession.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Connecteurs logiques"},
+    {"type": "qcm", "theme": "Expression", "niveau": "B2", "question": "Quel element manque dans un texte argumentatif?", "options": ["Une these claire", "Des exemples", "Une structure", "Des emoticones"], "answer_index": 3, "explication": "Les emoticones ne conviennent pas au registre formel.", "lesson_category_slug": "regles-grammaire", "lesson_titre": "Connecteurs logiques"}
+  ],
+  "writing_prompts": [
+    {
+      "titre": "Debat: apprentissage en ligne",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Vous participez a un debat sur l'apprentissage en ligne. Donnez votre opinion en presentant avantages, limites et solutions.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Reseaux sociaux et concentration",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Discutez l'impact des reseaux sociaux sur la concentration des etudiants et proposez des recommandations.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Travail et etudes",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Est-il utile de travailler pendant ses etudes? Defendez votre position avec des exemples.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Message a l'administration",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Ecrivez un message formel pour demander le report d'un examen.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Demande de stage",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Redigez un message pour solliciter un stage dans une entreprise locale.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Invitation officielle",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Invitez un intervenant a participer a une conference universitaire.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Recit: un succes personnel",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Racontez une situation ou vous avez atteint un objectif difficile.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Recit: un echec utile",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Racontez un echec qui vous a aide a progresser dans vos etudes.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Recit: premiere presentation",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Decrivez votre premiere presentation orale en francais et ce que vous avez appris.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Ville ideale pour etudier",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Decrivez les criteres d'une ville ideale pour les etudiants internationaux.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Lecture papier ou numerique",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Comparez la lecture papier et la lecture numerique et donnez votre preference.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Discipline et reussite",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Selon vous, la discipline est-elle plus importante que la motivation pour reussir?",
+      "min_mots": 180,
+      "max_mots": 220
+    }
+  ]
+}

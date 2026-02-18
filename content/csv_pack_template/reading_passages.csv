@@ -1,0 +1,569 @@
+titre,niveau,type_document,contexte,duree_recommandee_min,texte
+Affiche municipale: bibliotheque de quartier,A2,Annonce publique,Informations pratiques,8,"La bibliotheque du quartier Saint-Martin modifie ses horaires a partir du 3 mars. Le lundi et le mercredi, elle ouvrira de 10h a 19h. Le mardi et le jeudi, elle sera ouverte de 12h a 20h. Le vendredi, elle fermera a 18h. Les samedis resteront reserves aux activites pour les familles, de 9h a 13h. 
+
+Pendant le mois de mars, les inscriptions sont gratuites pour les nouveaux habitants de la ville. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile de moins de trois mois. 
+
+Enfin, un atelier de conversation en francais est propose chaque jeudi a 18h30. Les places sont limitees a 20 participants. La reservation est obligatoire a l'accueil ou par telephone."
+Courriel du service universitaire,B1,Courriel administratif,Vie etudiante,10,"Objet: Modification de la procedure de depot des travaux
+
+Chers etudiants,
+
+A partir du semestre prochain, tous les travaux ecrits devront etre deposes sur la plateforme numerique de l'universite. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle de la plateforme. Dans ce cas precis, un message sera envoye par le service informatique et un delai supplementaire de 24 heures sera accorde.
+
+Pour eviter les erreurs frequentes, veuillez respecter les trois regles suivantes: nommer le fichier avec votre numero etudiant, utiliser exclusivement le format PDF, et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail sera considere comme non remis.
+
+Un atelier d'accompagnement sera organise mardi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Article: espaces de coworking etudiants,B1,Article de presse,Societe et education,12,"Depuis deux ans, plusieurs villes francaises financent des espaces de coworking reserves aux etudiants. L'objectif est double: offrir des lieux calmes pour travailler et rompre l'isolement de ceux qui n'ont pas de conditions favorables a domicile. 
+
+Selon une enquete menee a Lille, 68% des utilisateurs declarent mieux structurer leur temps de travail grace a ces espaces. En revanche, 41% estiment que le bruit augmente fortement pendant les periodes d'examens, ce qui limite la concentration. Les gestionnaires ont donc mis en place des zones distinctes: certaines salles sont strictement silencieuses, d'autres autorisent les echanges en groupe.
+
+Le debat reste ouvert sur le financement public de ce dispositif. Pour les defenseurs, il s'agit d'un investissement social qui favorise la reussite etudiante. Pour les critiques, ces espaces risquent de dupliquer les services deja proposes par les bibliotheques universitaires."
+Tribune: apprentissage en ligne et autonomie,B2,Texte argumentatif,Debat d'idees,14,"L'apprentissage en ligne est souvent presente comme une solution universelle aux inegalites d'acces a la formation. Cette promesse merite pourtant d'etre nuancee. Certes, les plateformes numeriques offrent une flexibilite utile pour les adultes en reprise d'etudes et pour les etudiants qui cumulent emploi et cursus. Elles permettent aussi d'acceder rapidement a des contenus actualises. 
+
+Cependant, l'autonomie exigee est parfois sous-estimee. Suivre un cours a distance suppose de planifier son travail, de gerer les distractions et de maintenir un effort regulier sans cadre physique stable. Dans la pratique, les apprenants qui reussissent le mieux sont souvent ceux qui disposent deja de bonnes habitudes de travail. 
+
+Plutot que d'opposer presentiel et distanciel, il semble plus pertinent de concevoir des dispositifs hybrides. Un accompagnement methodologique explicite, combine a des moments de suivi humain, peut transformer la flexibilite technique en veritable reussite pedagogique."
+Vulgarisation: bruit urbain et memoire,B2,Article scientifique vulgarise,Sante et cognition,16,"Une equipe de chercheurs a etudie l'effet du bruit urbain intermittent sur la memorisation de textes courts chez de jeunes adultes. L'experience reposait sur trois groupes: le premier lisait dans un environnement silencieux, le deuxieme dans un bruit constant a faible intensite, et le troisieme dans un environnement ou des pics sonores apparaissaient de maniere irreguliere. 
+
+Les resultats montrent que les performances du groupe expose a un bruit constant restent proches de celles du groupe silencieux. En revanche, les participants soumis aux pics irreguliers obtiennent des scores inferieurs, surtout sur les questions d'inference. Les auteurs avancent l'hypothese suivante: les interruptions imprevisibles mobilisent une partie de l'attention necessaire au traitement en profondeur.
+
+Les chercheurs rappellent toutefois une limite importante: l'etude porte sur des textes brefs et sur une population relativement homogene. Ils recommandent donc de reproduire l'experience avec d'autres types de taches et des profils plus varies avant de generaliser les conclusions."
+Simulation CE 006 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 3 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 007 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 008 - Tribune usage des plateformes educatives,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur usage des plateformes educatives est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 009 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 6 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 010 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 011 - Tribune formation continue des adultes,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur formation continue des adultes est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 63% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 012 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 9 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 013 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 014 - Tribune evaluation continue,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur evaluation continue est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 66% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 015 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 12 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 016 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 017 - Tribune accompagnement methodologique,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur accompagnement methodologique est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 69% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 018 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 15 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 019 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 020 - Tribune apprentissage hybride,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur apprentissage hybride est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 72% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 021 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 18 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 022 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 023 - Tribune travail collaboratif en ligne,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur travail collaboratif en ligne est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 75% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 024 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 21 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 025 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 026 - Tribune integration du numerique a l'universite,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur integration du numerique a l'universite est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 027 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 4 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 028 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 029 - Tribune usage des plateformes educatives,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur usage des plateformes educatives est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 63% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 030 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 7 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 031 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 032 - Tribune formation continue des adultes,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur formation continue des adultes est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 66% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 033 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 10 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 034 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 035 - Tribune evaluation continue,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur evaluation continue est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 69% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 036 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 13 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 037 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 038 - Tribune accompagnement methodologique,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur accompagnement methodologique est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 72% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 039 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 16 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 040 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 041 - Tribune apprentissage hybride,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur apprentissage hybride est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 75% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 042 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 19 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 043 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 044 - Tribune travail collaboratif en ligne,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur travail collaboratif en ligne est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 045 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 22 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 046 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 047 - Tribune integration du numerique a l'universite,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur integration du numerique a l'universite est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 63% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 048 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 5 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 049 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 050 - Tribune usage des plateformes educatives,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur usage des plateformes educatives est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 66% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 051 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 8 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 052 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 053 - Tribune formation continue des adultes,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur formation continue des adultes est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 69% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 054 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 11 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 055 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 056 - Tribune evaluation continue,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur evaluation continue est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 72% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 057 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 14 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 058 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 059 - Tribune accompagnement methodologique,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur accompagnement methodologique est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 75% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 060 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 17 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 061 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 062 - Tribune apprentissage hybride,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur apprentissage hybride est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 063 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 20 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 064 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 065 - Tribune travail collaboratif en ligne,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur travail collaboratif en ligne est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 63% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 066 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 3 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 067 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 068 - Tribune integration du numerique a l'universite,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur integration du numerique a l'universite est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 66% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 069 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 6 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 070 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 071 - Tribune usage des plateformes educatives,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur usage des plateformes educatives est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 69% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 072 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 9 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 073 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 074 - Tribune formation continue des adultes,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur formation continue des adultes est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 72% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 075 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 12 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 076 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 077 - Tribune evaluation continue,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur evaluation continue est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 75% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 078 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 15 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 079 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 080 - Tribune accompagnement methodologique,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur accompagnement methodologique est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 081 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 18 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 082 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 083 - Tribune apprentissage hybride,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur apprentissage hybride est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 63% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 084 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 21 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 085 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 086 - Tribune travail collaboratif en ligne,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur travail collaboratif en ligne est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 66% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 35% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 087 - Annonce mediatheque des Rives,A2,Annonce publique,Informations pratiques,8,"Le mediatheque des Rives modifie ses horaires a partir du 4 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 22 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 088 - Courriel service numerique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service numerique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle A309. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 089 - Tribune integration du numerique a l'universite,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur integration du numerique a l'universite est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 69% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 38% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 090 - Annonce centre de quartier Bellevue,A2,Annonce publique,Informations pratiques,8,"Le centre de quartier Bellevue modifie ses horaires a partir du 7 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 25 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 091 - Courriel service des etudes,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service des etudes informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B204. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 092 - Tribune usage des plateformes educatives,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur usage des plateformes educatives est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 72% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 41% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 093 - Annonce maison des associations,A2,Annonce publique,Informations pratiques,8,"Le maison des associations modifie ses horaires a partir du 10 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 28 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 094 - Courriel secretariat des licences,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le secretariat des licences informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle D118. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 095 - Tribune formation continue des adultes,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur formation continue des adultes est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 75% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 44% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 096 - Annonce centre culturel Voltaire,A2,Annonce publique,Informations pratiques,8,"Le centre culturel Voltaire modifie ses horaires a partir du 13 mars. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de mars, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 16 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 097 - Courriel service pedagogique,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le service pedagogique informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle C112. La participation est facultative mais recommandee pour les etudiants de premiere annee."
+Simulation CE 098 - Tribune evaluation continue,B2,Texte argumentatif,Debat d'idees,14,"Le debat sur evaluation continue est souvent presente de maniere binaire: soit une solution miracle, soit une menace pour la qualite. Cette opposition simplifie un sujet plus complexe. Les partisans soulignent la flexibilite, l'acces rapide aux ressources et la possibilite de personnaliser le rythme d'apprentissage.
+
+Dans une enquete recente, 60% des etudiants declarent mieux organiser leur travail avec des outils numeriques. En revanche, 32% signalent une baisse de concentration quand les modalites d'accompagnement sont insuffisantes. Autrement dit, la technologie ne produit pas automatiquement des effets positifs: la qualite du cadre pedagogique reste decisive.
+
+Plutot que de choisir entre deux modeles exclusifs, plusieurs etablissements experimentent des dispositifs hybrides. Ils combinent flexibilite technique, suivi humain regulier et exigences explicites sur la methode de travail. Cette approche vise moins a opposer les formats qu'a renforcer la reussite durable."
+Simulation CE 099 - Annonce espace municipal Victor-Hugo,A2,Annonce publique,Informations pratiques,8,"Le espace municipal Victor-Hugo modifie ses horaires a partir du 16 juin. Le lundi et le mercredi, il ouvre de 10h a 19h. Le mardi et le jeudi, il ouvre de 12h a 20h. Le vendredi, il ferme a 18h. Les samedis sont reserves aux activites en famille, de 9h a 13h.
+
+Pendant le mois de juin, l'inscription est gratuite pour les nouveaux habitants. Pour s'inscrire, il faut presenter une piece d'identite et un justificatif de domicile recent.
+
+Un atelier de conversation en francais est propose chaque jeudi a 17h30. Les places sont limitees a 19 participants. La reservation se fait a l'accueil ou par telephone."
+Simulation CE 100 - Courriel direction des formations,B1,Courriel administratif,Vie etudiante,10,"Objet: Mise a jour de la procedure de depot des travaux
+
+Le direction des formations informe les etudiants qu'a partir du semestre prochain, les travaux ecrits devront etre deposes sur la plateforme numerique. Les depots par courriel ne seront plus acceptes, sauf en cas de panne officielle.
+
+En cas de panne confirmee, un message sera diffuse et un delai supplementaire de 36 heures sera accorde. Pour eviter les erreurs, il faut nommer le fichier avec le numero etudiant, utiliser le format PDF et verifier la confirmation de depot avant la date limite. Sans confirmation, le travail est considere comme non remis.
+
+Un atelier d'accompagnement est organise mercredi prochain, de 17h a 18h30, en salle B117. La participation est facultative mais recommandee pour les etudiants de premiere annee."

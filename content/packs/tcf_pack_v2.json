@@ -1,0 +1,5228 @@
+{
+  "metadata": {
+    "name": "tcf_pack_v2",
+    "version": "2.0.0",
+    "language": "fr",
+    "description": "Pack enrichi: contenu massif pour grammaire, temps verbaux, conjugaison, QCM et expression ecrite."
+  },
+  "categories": [
+    {
+      "slug": "vocabulaire",
+      "nom": "Vocabulaire",
+      "description": "Mots essentiels classes par themes et niveaux."
+    },
+    {
+      "slug": "grammaire",
+      "nom": "Grammaire",
+      "description": "Fiches pratiques pour les structures de base."
+    },
+    {
+      "slug": "regles-grammaire",
+      "nom": "Regles de grammaire",
+      "description": "Regles detaillees avec exemples et pieges frequents."
+    },
+    {
+      "slug": "temps-verbaux",
+      "nom": "Temps verbaux",
+      "description": "Usage des temps: present, passe, futur, conditionnel."
+    },
+    {
+      "slug": "conjugaison",
+      "nom": "Conjugaison",
+      "description": "Conjugaisons par verbe et par temps."
+    },
+    {
+      "slug": "qcm",
+      "nom": "QCM",
+      "description": "Questions a choix multiple corrigees."
+    },
+    {
+      "slug": "expression-ecrite",
+      "nom": "Expression ecrite",
+      "description": "Sujets et methode pour le TCF ecrit."
+    }
+  ],
+  "lessons": [
+    {
+      "category_slug": "grammaire",
+      "titre": "Articles definis et indefinis",
+      "niveau": "A2",
+      "resume": "Choisir entre le/la/les et un/une/des.",
+      "contenu_markdown": "Utilise **le/la/les** pour une information connue.\n\nUtilise **un/une/des** pour introduire une information nouvelle.\n\nExemple: *J'ai achete un livre. Le livre est utile.*",
+      "tags": [
+        "articles",
+        "determinants"
+      ]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Articles partitifs",
+      "niveau": "A2",
+      "resume": "Employer du, de la, de l', des pour les quantites non comptables.",
+      "contenu_markdown": "Le partitif exprime une partie d'un tout.\n\n- du pain\n- de la soupe\n- de l'eau\n\nApres negation, on emploie souvent **de**: *Je ne mange pas de pain.*",
+      "tags": [
+        "partitif",
+        "quantite"
+      ]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Negation simple",
+      "niveau": "A2",
+      "resume": "Construire ne...pas correctement.",
+      "contenu_markdown": "La negation encadre le verbe conjugue: *Je ne parle pas vite.*\n\nAvec infinitif: *ne pas + infinitif*.",
+      "tags": [
+        "negation"
+      ]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Comparatif et superlatif",
+      "niveau": "A2",
+      "resume": "Comparer des personnes, objets, situations.",
+      "contenu_markdown": "Comparatif: **plus/moins/aussi ... que**.\n\nSuperlatif: **le plus/le moins**.\n\nIrreguliers: meilleur, mieux.",
+      "tags": [
+        "comparatif",
+        "superlatif"
+      ]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Pronoms personnels sujet",
+      "niveau": "A1",
+      "resume": "Je, tu, il/elle, nous, vous, ils/elles.",
+      "contenu_markdown": "Les pronoms sujet remplacent le nom du sujet.\n\nExemple: *Marie travaille* -> *Elle travaille*.",
+      "tags": [
+        "pronoms",
+        "sujet"
+      ]
+    },
+    {
+      "category_slug": "grammaire",
+      "titre": "Question directe",
+      "niveau": "A2",
+      "resume": "Poser une question avec est-ce que, inversion, intonation.",
+      "contenu_markdown": "Trois formes utiles:\n\n- *Tu viens ?*\n- *Est-ce que tu viens ?*\n- *Viens-tu ?*",
+      "tags": [
+        "question"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms COD et COI",
+      "niveau": "B1",
+      "resume": "Distinguer et placer correctement les pronoms complements.",
+      "contenu_markdown": "### Regle\n- COD: le, la, les\n- COI: lui, leur\n- Les pronoms se placent avant le verbe conjugue.\n\n### Exemples\n- Je vois Marie -> Je la vois.\n- Je vois Paul et Luc -> Je les vois.\n- Je parle a Marie -> Je lui parle.\n- Je parle a mes parents -> Je leur parle.\n- Je vais telephoner a mon professeur -> Je vais lui telephoner.\n\n### Pieges\n- *Parler* prend un COI (a quelqu'un).\n- *Voir* prend un COD (quelqu'un).\n- A l'imperatif affirmatif: Donne-le-moi.",
+      "tags": [
+        "pronoms",
+        "cod",
+        "coi"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms y et en",
+      "niveau": "B1",
+      "resume": "Remplacer les complements de lieu, de chose et de quantite.",
+      "contenu_markdown": "### Regle\n- **y**: lieu ou complement introduit par a (chose).\n- **en**: complement introduit par de, ou quantite.\n\n### Exemples\n- Tu vas a la bibliotheque ? Oui, j'y vais.\n- Tu penses a cet exercice ? Oui, j'y pense.\n- Tu as besoin de cette fiche ? Oui, j'en ai besoin.\n- Tu veux des exemples ? Oui, j'en veux trois.\n- Tu viens du cours ? Oui, j'en viens.\n\n### Pieges\n- Pour une personne, on prefere souvent un pronom tonique: Je pense a elle.\n- Avec une quantite, on conserve le nombre: J'en prends deux.",
+      "tags": [
+        "y",
+        "en",
+        "pronoms"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Pronoms relatifs",
+      "niveau": "B1",
+      "resume": "Structurer des phrases plus riches avec qui, que, dont, ou.",
+      "contenu_markdown": "### Roles\n- qui: sujet\n- que: COD\n- dont: de + nom/verbe\n- ou: lieu ou temps\n\n### Exemples\n- Le livre qui est sur la table est a moi.\n- Le film que j'ai vu etait excellent.\n- Le sujet dont nous parlons est complexe.\n- La ville ou j'etudie est dynamique.\n- Le jour ou je passe l'examen approche.\n\n### Pieges\n- Apres *parler de*, *avoir besoin de*, utiliser souvent *dont*.\n- Ne pas supprimer *que* dans les phrases ecrites formelles.",
+      "tags": [
+        "relatifs",
+        "phrase-complexe"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Concordance des temps",
+      "niveau": "B2",
+      "resume": "Maintenir la coherence temporelle dans les subordonnees.",
+      "contenu_markdown": "### Principe\nLe temps du verbe principal influence le temps de la subordonnee selon le sens.\n\n### Exemples\n- Il dit qu'il vient.\n- Il a dit qu'il viendrait.\n- Je savais qu'elle etait prete.\n- Elle pensait que nous avions fini.\n- Il a explique qu'il etait arrive en retard.\n\n### Conseil\nRelis chaque phrase complexe et verifie la logique chronologique.",
+      "tags": [
+        "concordance",
+        "b2"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Declencheurs du subjonctif",
+      "niveau": "B2",
+      "resume": "Identifier les contextes qui exigent le subjonctif.",
+      "contenu_markdown": "### Expressions frequentes\n- il faut que\n- bien que\n- pour que\n- avant que\n- je veux que\n\n### Exemples\n- Il faut que tu revises ce chapitre.\n- Bien qu'il soit fatigue, il continue.\n- Je veux que vous soyez prets.\n- Avant que nous partions, verifions la consigne.\n- Pour que l'idee soit claire, donne un exemple.\n\n### Irreguliers utiles\netre -> que je sois\navoir -> que j'aie\nfaire -> que je fasse\naller -> que j'aille",
+      "tags": [
+        "subjonctif"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Connecteurs logiques",
+      "niveau": "B2",
+      "resume": "Ameliorer la cohesion et la progression argumentative.",
+      "contenu_markdown": "### Fonctions\n- Addition: de plus, en outre\n- Opposition: cependant, pourtant\n- Cause: car, puisque\n- Consequence: donc, ainsi\n- Illustration: par exemple\n\n### Exemples\n- Le cours est dense; cependant, il est tres utile.\n- J'ai peu de temps, donc je fais un plan rapide.\n- Cette methode est efficace, car elle est progressive.\n- Par exemple, je revise les verbes tous les soirs.\n- En outre, je fais une simulation hebdomadaire.\n\n### Conseil TCF\nEvite de commencer toutes les phrases par *mais* ou *donc*.",
+      "tags": [
+        "connecteurs",
+        "argumentation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Present de l'indicatif",
+      "niveau": "A1",
+      "resume": "Formation des verbes reguliers et reperes pour les irreguliers frequents.",
+      "contenu_markdown": "### Formation des verbes reguliers\n- Verbes en **-er**: e, es, e, ons, ez, ent (parler)\n- Verbes en **-ir**: is, is, it, issons, issez, issent (finir)\n- Verbes en **-re**: s, s, -, ons, ez, ent (vendre)\n\n### Irreguliers essentiels\n- etre: je suis, nous sommes\n- avoir: j'ai, nous avons\n- aller: je vais, nous allons\n- faire: je fais, nous faisons\n\n### Exemples\n- Je parle avec mon professeur.\n- Nous finissons ce module aujourd'hui.\n- Ils vendent leurs anciens livres.\n- Je vais a la bibliotheque.",
+      "tags": [
+        "present",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Passe compose",
+      "niveau": "A2",
+      "resume": "Former le passe compose avec avoir/etre et accorder correctement.",
+      "contenu_markdown": "### Formation\n- Auxiliaire au present + participe passe.\n- Participes reguliers: -er -> -e, -ir -> -i, -re -> -u.\n\n### Choix de l'auxiliaire\n- La majorite des verbes prennent **avoir**.\n- Verbes de mouvement frequents prennent **etre** (aller, venir, partir).\n\n### Irreguliers frequents\n- faire -> fait\n- prendre -> pris\n- voir -> vu\n- avoir -> eu\n- etre -> ete\n\n### Exemples\n- J'ai termine mes devoirs.\n- Elle est arrivee en avance.\n- Nous avons pris des notes.",
+      "tags": [
+        "passe-compose",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Imparfait",
+      "niveau": "A2",
+      "resume": "Former l'imparfait et l'utiliser pour le contexte et l'habitude.",
+      "contenu_markdown": "### Formation\nRadical de **nous** au present + terminaisons: ais, ais, ait, ions, iez, aient.\n\nExemple: nous parlons -> je parlais.\n\n### Irregulier majeur\n- etre -> j'etais, tu etais, il etait, nous etions...\n\n### Exemples\n- Quand j'etais petit, je lisais beaucoup.\n- Nous travaillions tous les soirs.\n- Il faisait froid en hiver.",
+      "tags": [
+        "imparfait",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Imparfait vs passe compose",
+      "niveau": "B1",
+      "resume": "Distinguer action de fond et evenement ponctuel.",
+      "contenu_markdown": "### Regle pratique\n- Imparfait: description, habitude, action en cours.\n- Passe compose: action ponctuelle terminee.\n\n### Exemples\n- Il pleuvait quand je suis sorti.\n- Nous etudiions quand le professeur est arrive.\n- Je lisais, puis j'ai entendu un bruit.\n- Avant, je prenais le bus; hier, j'ai pris le train.",
+      "tags": [
+        "imparfait",
+        "passe-compose"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Futur simple",
+      "niveau": "A2",
+      "resume": "Former le futur simple des verbes reguliers et connaitre les radicaux irreguliers utiles.",
+      "contenu_markdown": "### Formation reguliere\n- Infinitif + terminaisons: ai, as, a, ons, ez, ont.\n- Verbes en -re: retirer le e final (vendre -> vendrai).\n\n### Radicaux irreguliers frequents\n- etre -> ser-\n- avoir -> aur-\n- aller -> ir-\n- faire -> fer-\n- venir -> viendr-\n- pouvoir -> pourr-\n\n### Exemples\n- Demain, je reviserai deux heures.\n- Nous irons a la bibliotheque.\n- Ils auront plus de temps.",
+      "tags": [
+        "futur-simple",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Conditionnel present",
+      "niveau": "B1",
+      "resume": "Former le conditionnel et l'utiliser pour politesse et hypothese.",
+      "contenu_markdown": "### Formation\nRadical du futur + terminaisons de l'imparfait: ais, ais, ait, ions, iez, aient.\n\n### Irreguliers frequents\n- etre -> serais\n- avoir -> aurais\n- aller -> irais\n- faire -> ferais\n- pouvoir -> pourrais\n\n### Exemples\n- Je voudrais plus d'exemples.\n- Si j'avais du temps, je lirais davantage.\n- Nous pourrions revoir ce point.",
+      "tags": [
+        "conditionnel",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Subjonctif present",
+      "niveau": "B2",
+      "resume": "Former et utiliser le subjonctif present en contexte frequent.",
+      "contenu_markdown": "### Formation generale\nRadical de ils/elles au present + e, es, e, ions, iez, ent.\n\n### Irreguliers a memoriser\n- etre: que je sois\n- avoir: que j'aie\n- aller: que j'aille\n- faire: que je fasse\n- pouvoir: que je puisse\n\n### Exemples\n- Il faut que tu finisses ce travail.\n- Bien qu'il soit tard, nous continuons.\n- Je veux que vous soyez attentifs.",
+      "tags": [
+        "subjonctif",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Plus-que-parfait",
+      "niveau": "B1",
+      "resume": "Exprimer une anterieurite dans le passe.",
+      "contenu_markdown": "### Formation\nAuxiliaire a l'imparfait + participe passe.\n\n### Exemples\n- J'avais deja termine quand il est arrive.\n- Nous etions partis avant la pluie.\n- Elle avait pris des notes utiles.\n\n### Astuce\nUtilise-le pour clarifier la chronologie de deux actions passees.",
+      "tags": [
+        "plus-que-parfait",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Gerondif",
+      "niveau": "B1",
+      "resume": "Exprimer simultaneite, maniere ou condition.",
+      "contenu_markdown": "### Formation\n**en + participe present** (radical de nous + ant).\n\n### Exemples\n- Il apprend en lisant.\n- Nous progressons en pratiquant chaque jour.\n- En etant organise, on reduit le stress.\n\n### Attention\nLe gerondif exprime souvent la maniere ou la condition.",
+      "tags": [
+        "gerondif",
+        "formation"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Accord du participe passe",
+      "niveau": "B2",
+      "resume": "Regles d'accord avec etre, avoir et verbes pronominaux.",
+      "contenu_markdown": "### Regle\n- Avec **etre**, le participe passe s'accorde avec le sujet.\n- Avec **avoir**, accord seulement si le COD est place avant.\n- Avec les verbes pronominaux, l'accord depend de la fonction du pronom.\n\n### Exemples\n- Elles sont arrivees tot.\n- Les lettres que j'ai ecrites sont sur la table.\n- Ils se sont parle (COI: pas d'accord).\n- Elles se sont vues (COD: accord).\n\n### Pieges\n- Confondre COD et COI avec les pronominaux.\n- Oublier l'accord en genre/nombre avec etre.",
+      "tags": [
+        "participe-passe",
+        "accord",
+        "b2"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Negation complexe",
+      "niveau": "B1",
+      "resume": "Maitriser ne...jamais, ne...plus, ne...rien, ne...personne, ne...que.",
+      "contenu_markdown": "### Structures\n- ne ... jamais\n- ne ... plus\n- ne ... rien\n- ne ... personne\n- ne ... que (restriction)\n\n### Exemples\n- Je ne sors jamais tard.\n- Il ne fume plus.\n- Nous ne comprenons rien.\n- Je n'ai vu personne.\n- Elle ne mange que des legumes.\n\n### Conseil TCF\nVarie les structures de negation dans tes redactions pour montrer de la precision.",
+      "tags": [
+        "negation",
+        "structure"
+      ]
+    },
+    {
+      "category_slug": "regles-grammaire",
+      "titre": "Discours direct et indirect",
+      "niveau": "B2",
+      "resume": "Transformer une citation en discours rapporte.",
+      "contenu_markdown": "### Regle\nAu discours indirect, on adapte les pronoms, les marqueurs de temps et parfois les temps verbaux.\n\n### Exemples\n- Direct: Il dit: \"Je viens demain.\"  \n  Indirect: Il dit qu'il vient demain.\n- Direct: Elle a dit: \"Je partirai.\"  \n  Indirect: Elle a dit qu'elle partirait.\n- Direct: \"Je suis ici.\"  \n  Indirect: Il dit qu'il est la.\n\n### Points sensibles\n- demain -> le lendemain\n- ici -> la\n- maintenant -> alors",
+      "tags": [
+        "discours-indirect",
+        "concordance"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Futur proche vs futur simple",
+      "niveau": "B1",
+      "resume": "Choisir entre intention immediate et projection plus neutre.",
+      "contenu_markdown": "### Formation\n- Futur proche: **aller au present + infinitif**.\n- Futur simple: **radical futur + terminaisons** (ai, as, a, ons, ez, ont).\n\n### Usage\n- Futur proche: action imminente ou decidee.\n- Futur simple: prediction, plan, style plus formel.\n\n### Exemples\n- Je vais commencer maintenant.\n- Je commencerai demain matin.\n- Nous allons revoir le chapitre 3.\n- Nous reverrons ce point en classe.",
+      "tags": [
+        "futur",
+        "registre"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Conditionnel passe",
+      "niveau": "B2",
+      "resume": "Exprimer un regret, une hypothese non realisee ou une information non confirmee.",
+      "contenu_markdown": "### Formation\nAuxiliaire au conditionnel present + participe passe.\n\n### Exemples\n- J'aurais revise davantage.\n- Elle serait venue plus tot.\n- Nous aurions compris avec plus d'exemples.\n\n### Cas frequents au TCF\n- Regret: J'aurais du verifier l'orthographe.\n- Hypothese non realisee: Si j'avais eu plus de temps, j'aurais termine.",
+      "tags": [
+        "conditionnel-passe",
+        "hypothese"
+      ]
+    },
+    {
+      "category_slug": "temps-verbaux",
+      "titre": "Conjugaison des verbes irreguliers essentiels",
+      "niveau": "B2",
+      "resume": "Memoriser les formes frequentes de etre, avoir, aller, faire, venir, pouvoir, devoir, vouloir.",
+      "contenu_markdown": "### Verbes a prioriser\n- etre, avoir, aller, faire\n- venir, pouvoir, devoir, vouloir, prendre, savoir\n\n### Strategie\n1. Apprendre les formes du present.\n2. Ajouter imparfait et futur simple.\n3. Automatiser conditionnel et subjonctif.\n\n### Exemples\n- Il faut que je **sois** ponctuel.\n- Nous **aurons** plus de temps demain.\n- Je **voudrais** clarifier cette idee.\n- Bien qu'il **vienne** tard, il participe.",
+      "tags": [
+        "irreguliers",
+        "conjugaison"
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "mot": "ameliorer",
+      "definition_fr": "Rendre meilleur, progresser.",
+      "traduction_en": "to improve",
+      "exemple_fr": "Je veux ameliorer mon expression ecrite.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "objectif",
+      "definition_fr": "But a atteindre.",
+      "traduction_en": "goal",
+      "exemple_fr": "Mon objectif est d'obtenir le niveau B2.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "defi",
+      "definition_fr": "Difficulte a surmonter.",
+      "traduction_en": "challenge",
+      "exemple_fr": "Le TCF est un defi exigeant.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "rigoureux",
+      "definition_fr": "Tres precis et serieux.",
+      "traduction_en": "rigorous",
+      "exemple_fr": "Il faut etre rigoureux en grammaire.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "coherent",
+      "definition_fr": "Logique et bien organise.",
+      "traduction_en": "coherent",
+      "exemple_fr": "Ton argumentation est coherente.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "nuancer",
+      "definition_fr": "Exprimer une idee avec precision.",
+      "traduction_en": "to nuance",
+      "exemple_fr": "Il faut nuancer son opinion.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "pertinent",
+      "definition_fr": "Adapte au sujet.",
+      "traduction_en": "relevant",
+      "exemple_fr": "Ton exemple est pertinent.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "enjeu",
+      "definition_fr": "Ce qui est important dans une situation.",
+      "traduction_en": "issue",
+      "exemple_fr": "L'enjeu principal est la clarte du texte.",
+      "niveau": "B2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "consigne",
+      "definition_fr": "Instruction precise a suivre.",
+      "traduction_en": "instruction",
+      "exemple_fr": "Lis bien la consigne avant d'ecrire.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "barreme",
+      "definition_fr": "Systeme de notation.",
+      "traduction_en": "grading scale",
+      "exemple_fr": "Le bareme du TCF est detaille.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "synthese",
+      "definition_fr": "Resume clair des idees essentielles.",
+      "traduction_en": "summary",
+      "exemple_fr": "La synthese finale doit etre concise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "argument",
+      "definition_fr": "Raison pour soutenir une opinion.",
+      "traduction_en": "argument",
+      "exemple_fr": "Chaque paragraphe doit contenir un argument.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "justifier",
+      "definition_fr": "Expliquer avec des raisons.",
+      "traduction_en": "to justify",
+      "exemple_fr": "Tu dois justifier ta position.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "avantage",
+      "definition_fr": "Point positif.",
+      "traduction_en": "advantage",
+      "exemple_fr": "L'apprentissage en ligne offre plusieurs avantages.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "inconvenient",
+      "definition_fr": "Point negatif.",
+      "traduction_en": "drawback",
+      "exemple_fr": "Le principal inconvenient est l'isolement.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "disponible",
+      "definition_fr": "Que l'on peut utiliser ou consulter.",
+      "traduction_en": "available",
+      "exemple_fr": "Les ressources sont disponibles en ligne.",
+      "niveau": "A2",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "acceder",
+      "definition_fr": "Pouvoir entrer ou utiliser.",
+      "traduction_en": "to access",
+      "exemple_fr": "Je peux acceder aux cours sur mon telephone.",
+      "niveau": "B1",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "plateforme",
+      "definition_fr": "Service numerique pour apprendre.",
+      "traduction_en": "platform",
+      "exemple_fr": "Cette plateforme propose des exercices adaptes.",
+      "niveau": "A2",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "interactif",
+      "definition_fr": "Qui implique une participation active.",
+      "traduction_en": "interactive",
+      "exemple_fr": "Le cours interactif motive les etudiants.",
+      "niveau": "B1",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "autonome",
+      "definition_fr": "Capable de travailler seul.",
+      "traduction_en": "independent",
+      "exemple_fr": "Je suis plus autonome dans mon apprentissage.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "motivation",
+      "definition_fr": "Energie interieure pour agir.",
+      "traduction_en": "motivation",
+      "exemple_fr": "La motivation est essentielle pour progresser.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "constance",
+      "definition_fr": "Regularite dans l'effort.",
+      "traduction_en": "consistency",
+      "exemple_fr": "La constance apporte de meilleurs resultats.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "progres",
+      "definition_fr": "Amelioration au fil du temps.",
+      "traduction_en": "progress",
+      "exemple_fr": "Je vois des progres chaque semaine.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "evaluer",
+      "definition_fr": "Mesurer un niveau ou une qualite.",
+      "traduction_en": "to evaluate",
+      "exemple_fr": "Le professeur evalue la coherence du texte.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "corriger",
+      "definition_fr": "Identifier et reparer une erreur.",
+      "traduction_en": "to correct",
+      "exemple_fr": "Je corrige mes fautes de grammaire.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "orthographe",
+      "definition_fr": "Maniere correcte d'ecrire les mots.",
+      "traduction_en": "spelling",
+      "exemple_fr": "Mon orthographe s'ameliore.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "syntaxe",
+      "definition_fr": "Organisation des mots dans la phrase.",
+      "traduction_en": "syntax",
+      "exemple_fr": "La syntaxe de cette phrase est correcte.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "registre",
+      "definition_fr": "Niveau de langue selon le contexte.",
+      "traduction_en": "register",
+      "exemple_fr": "Le registre doit rester formel.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "cohesion",
+      "definition_fr": "Lien entre les phrases d'un texte.",
+      "traduction_en": "cohesion",
+      "exemple_fr": "La cohesion renforce la clarte du texte.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "connecteur",
+      "definition_fr": "Mot qui relie les idees.",
+      "traduction_en": "connector",
+      "exemple_fr": "Utilise des connecteurs varies.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "cependant",
+      "definition_fr": "Mot pour exprimer une opposition.",
+      "traduction_en": "however",
+      "exemple_fr": "Le sujet est difficile; cependant, il est interessant.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "donc",
+      "definition_fr": "Mot qui exprime une consequence.",
+      "traduction_en": "therefore",
+      "exemple_fr": "Il s'entraine, donc il progresse.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "neanmoins",
+      "definition_fr": "Mot de concession au registre soutenu.",
+      "traduction_en": "nevertheless",
+      "exemple_fr": "Le delai est court; neanmoins, je vais terminer.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "fiable",
+      "definition_fr": "En qui on peut avoir confiance.",
+      "traduction_en": "reliable",
+      "exemple_fr": "Cette source est fiable.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "efficace",
+      "definition_fr": "Qui produit de bons resultats.",
+      "traduction_en": "effective",
+      "exemple_fr": "Cette methode est efficace.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "rentable",
+      "definition_fr": "Qui rapporte plus qu'il ne coute.",
+      "traduction_en": "cost-effective",
+      "exemple_fr": "La formation en ligne est rentable.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "adapter",
+      "definition_fr": "Modifier selon le besoin.",
+      "traduction_en": "to adapt",
+      "exemple_fr": "Il faut adapter son style au sujet.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "anticiper",
+      "definition_fr": "Prevoir a l'avance.",
+      "traduction_en": "to anticipate",
+      "exemple_fr": "J'anticipe les difficultes de l'examen.",
+      "niveau": "B2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "rediger",
+      "definition_fr": "Ecrire de maniere organisee.",
+      "traduction_en": "to draft",
+      "exemple_fr": "Je redige un plan avant le texte final.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "reformuler",
+      "definition_fr": "Dire autrement.",
+      "traduction_en": "to rephrase",
+      "exemple_fr": "Je reformule l'idee pour plus de clarte.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "convaincant",
+      "definition_fr": "Qui persuade efficacement.",
+      "traduction_en": "convincing",
+      "exemple_fr": "Ton exemple est convaincant.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "nuance",
+      "definition_fr": "Difference fine entre deux idees.",
+      "traduction_en": "nuance",
+      "exemple_fr": "Il manque une nuance dans ton argument.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "clarte",
+      "definition_fr": "Qualite de ce qui est facile a comprendre.",
+      "traduction_en": "clarity",
+      "exemple_fr": "La clarte est indispensable dans un essai.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "precision",
+      "definition_fr": "Exactitude dans les mots utilises.",
+      "traduction_en": "precision",
+      "exemple_fr": "La precision du vocabulaire est evaluee.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "structure",
+      "definition_fr": "Organisation generale d'un texte.",
+      "traduction_en": "structure",
+      "exemple_fr": "La structure en trois parties est efficace.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "conclusion",
+      "definition_fr": "Derniere partie qui ferme le texte.",
+      "traduction_en": "conclusion",
+      "exemple_fr": "La conclusion doit ouvrir une perspective.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "introduction",
+      "definition_fr": "Partie initiale qui presente le sujet.",
+      "traduction_en": "introduction",
+      "exemple_fr": "L'introduction annonce la problematique.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "problematique",
+      "definition_fr": "Question centrale d'un debat.",
+      "traduction_en": "problem statement",
+      "exemple_fr": "La problematique doit etre claire des le debut.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "transition",
+      "definition_fr": "Phrase qui relie deux parties.",
+      "traduction_en": "transition",
+      "exemple_fr": "Ajoute une transition entre tes paragraphes.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "fluide",
+      "definition_fr": "Qui se lit facilement, sans rupture.",
+      "traduction_en": "fluid",
+      "exemple_fr": "Le texte est fluide et agreable a lire.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "hesitation",
+      "definition_fr": "Manque de certitude.",
+      "traduction_en": "hesitation",
+      "exemple_fr": "Evite les hesitations dans ta these.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "soutenir",
+      "definition_fr": "Defendre une idee.",
+      "traduction_en": "to support",
+      "exemple_fr": "Je soutiens cette proposition avec deux arguments.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "contester",
+      "definition_fr": "Refuser ou critiquer une idee.",
+      "traduction_en": "to challenge",
+      "exemple_fr": "Il conteste cette decision.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "priorite",
+      "definition_fr": "Ce qui doit etre traite en premier.",
+      "traduction_en": "priority",
+      "exemple_fr": "Ma priorite est l'orthographe.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "delai",
+      "definition_fr": "Temps limite pour terminer.",
+      "traduction_en": "deadline",
+      "exemple_fr": "Le delai de redaction est de 30 minutes.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "resultat",
+      "definition_fr": "Ce qu'on obtient apres un effort.",
+      "traduction_en": "result",
+      "exemple_fr": "Le resultat depend de la preparation.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "simulation",
+      "definition_fr": "Exercice qui imite l'examen reel.",
+      "traduction_en": "mock test",
+      "exemple_fr": "Je fais une simulation chaque week-end.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "retroaction",
+      "definition_fr": "Commentaire utile pour progresser.",
+      "traduction_en": "feedback",
+      "exemple_fr": "La retroaction du professeur est precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "methodique",
+      "definition_fr": "Organise et logique dans la maniere de travailler.",
+      "traduction_en": "methodical",
+      "exemple_fr": "Une revision methodique est plus efficace.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "resumer",
+      "definition_fr": "Presenter l'essentiel en peu de mots.",
+      "traduction_en": "to summarize",
+      "exemple_fr": "Savoir resumer est utile pour le TCF.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "developper",
+      "definition_fr": "Expliquer en detail.",
+      "traduction_en": "to develop",
+      "exemple_fr": "Developpe ton deuxieme argument.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "illustrer",
+      "definition_fr": "Montrer par un exemple.",
+      "traduction_en": "to illustrate",
+      "exemple_fr": "Illustre ton idee avec une experience concrete.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "convivial",
+      "definition_fr": "Agreable et chaleureux.",
+      "traduction_en": "friendly",
+      "exemple_fr": "L'environnement d'etude est convivial.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "epanouissement",
+      "definition_fr": "Developpement personnel positif.",
+      "traduction_en": "fulfillment",
+      "exemple_fr": "La lecture contribue a mon epanouissement.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "collaboratif",
+      "definition_fr": "Qui se fait avec d'autres personnes.",
+      "traduction_en": "collaborative",
+      "exemple_fr": "Le travail collaboratif stimule les idees.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "responsable",
+      "definition_fr": "Qui assume ses decisions et ses actions.",
+      "traduction_en": "responsible",
+      "exemple_fr": "Un etudiant responsable planifie sa revision.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "assiduite",
+      "definition_fr": "Presence et regularite dans le travail.",
+      "traduction_en": "diligence",
+      "exemple_fr": "L'assiduite aide a monter en niveau.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "souplesse",
+      "definition_fr": "Capacite a s'adapter facilement.",
+      "traduction_en": "flexibility",
+      "exemple_fr": "La formation a distance offre plus de souplesse.",
+      "niveau": "B1",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "ressource",
+      "definition_fr": "Outil ou document utile.",
+      "traduction_en": "resource",
+      "exemple_fr": "Cette ressource explique bien le subjonctif.",
+      "niveau": "A2",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "aisance",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "ease",
+      "exemple_fr": "J'utilise le mot 'aisance' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "analyse",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "analysis",
+      "exemple_fr": "J'utilise le mot 'analyse' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "annonce",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "announcement",
+      "exemple_fr": "J'utilise le mot 'annonce' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "apprenant",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "learner",
+      "exemple_fr": "J'utilise le mot 'apprenant' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "argumentation",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "argumentation",
+      "exemple_fr": "J'utilise le mot 'argumentation' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "assurer",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "to ensure",
+      "exemple_fr": "J'utilise le mot 'assurer' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "atelier",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "workshop",
+      "exemple_fr": "J'utilise le mot 'atelier' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "attitude",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "attitude",
+      "exemple_fr": "J'utilise le mot 'attitude' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "auditoire",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "audience",
+      "exemple_fr": "J'utilise le mot 'auditoire' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "autocorrection",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "self-correction",
+      "exemple_fr": "J'utilise le mot 'autocorrection' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "autoevaluation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "self-assessment",
+      "exemple_fr": "J'utilise le mot 'autoevaluation' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "brouillon",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "draft",
+      "exemple_fr": "J'utilise le mot 'brouillon' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "cadre",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "framework",
+      "exemple_fr": "J'utilise le mot 'cadre' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "capacite",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "ability",
+      "exemple_fr": "J'utilise le mot 'capacite' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "carriere",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "career",
+      "exemple_fr": "J'utilise le mot 'carriere' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "certification",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "certification",
+      "exemple_fr": "J'utilise le mot 'certification' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "citer",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to quote",
+      "exemple_fr": "J'utilise le mot 'citer' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "classement",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "ranking",
+      "exemple_fr": "J'utilise le mot 'classement' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "collaborer",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "to collaborate",
+      "exemple_fr": "J'utilise le mot 'collaborer' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "commentaire",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "comment",
+      "exemple_fr": "J'utilise le mot 'commentaire' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "competence",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "skill",
+      "exemple_fr": "J'utilise le mot 'competence' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "comprehensible",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "understandable",
+      "exemple_fr": "J'utilise le mot 'comprehensible' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "concision",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "conciseness",
+      "exemple_fr": "J'utilise le mot 'concision' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "confiance",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "confidence",
+      "exemple_fr": "J'utilise le mot 'confiance' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "conseiller",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "to advise",
+      "exemple_fr": "J'utilise le mot 'conseiller' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "consistant",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "consistent",
+      "exemple_fr": "J'utilise le mot 'consistant' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "conviction",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "conviction",
+      "exemple_fr": "J'utilise le mot 'conviction' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "convocation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "summons",
+      "exemple_fr": "J'utilise le mot 'convocation' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "creativite",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "creativity",
+      "exemple_fr": "J'utilise le mot 'creativite' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "critere",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "criterion",
+      "exemple_fr": "J'utilise le mot 'critere' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "debattre",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to debate",
+      "exemple_fr": "J'utilise le mot 'debattre' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "decrire",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to describe",
+      "exemple_fr": "J'utilise le mot 'decrire' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "demarche",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "approach",
+      "exemple_fr": "J'utilise le mot 'demarche' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "demonstration",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "demonstration",
+      "exemple_fr": "J'utilise le mot 'demonstration' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "detail",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "detail",
+      "exemple_fr": "J'utilise le mot 'detail' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "diplome",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "degree",
+      "exemple_fr": "J'utilise le mot 'diplome' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "discours",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "speech",
+      "exemple_fr": "J'utilise le mot 'discours' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "dissertation",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "essay",
+      "exemple_fr": "J'utilise le mot 'dissertation' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "documenter",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "to document",
+      "exemple_fr": "J'utilise le mot 'documenter' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "domaine",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "field",
+      "exemple_fr": "J'utilise le mot 'domaine' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "durable",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "sustainable",
+      "exemple_fr": "J'utilise le mot 'durable' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "echanger",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "to exchange",
+      "exemple_fr": "J'utilise le mot 'echanger' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "echeance",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "due date",
+      "exemple_fr": "J'utilise le mot 'echeance' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "eclaircir",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to clarify",
+      "exemple_fr": "J'utilise le mot 'eclaircir' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "ecoute",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "listening",
+      "exemple_fr": "J'utilise le mot 'ecoute' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "effort",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "effort",
+      "exemple_fr": "J'utilise le mot 'effort' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "elargir",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "to broaden",
+      "exemple_fr": "J'utilise le mot 'elargir' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "employabilite",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "employability",
+      "exemple_fr": "J'utilise le mot 'employabilite' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "encadrement",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "supervision",
+      "exemple_fr": "J'utilise le mot 'encadrement' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "enchainement",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "flow",
+      "exemple_fr": "J'utilise le mot 'enchainement' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "encourager",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "to encourage",
+      "exemple_fr": "J'utilise le mot 'encourager' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "energie",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "energy",
+      "exemple_fr": "J'utilise le mot 'energie' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "entretien",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "interview",
+      "exemple_fr": "J'utilise le mot 'entretien' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "equilibre",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "balance",
+      "exemple_fr": "J'utilise le mot 'equilibre' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "erreur",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "mistake",
+      "exemple_fr": "J'utilise le mot 'erreur' pour rendre mon expression plus precise.",
+      "niveau": "A1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "essentiel",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "essential",
+      "exemple_fr": "J'utilise le mot 'essentiel' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "estimation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "estimate",
+      "exemple_fr": "J'utilise le mot 'estimation' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "ethique",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "ethics",
+      "exemple_fr": "J'utilise le mot 'ethique' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "evaluation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "evaluation",
+      "exemple_fr": "J'utilise le mot 'evaluation' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "evidence",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "evidence",
+      "exemple_fr": "J'utilise le mot 'evidence' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "evolution",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "evolution",
+      "exemple_fr": "J'utilise le mot 'evolution' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "exactitude",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "accuracy",
+      "exemple_fr": "J'utilise le mot 'exactitude' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "exigence",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "requirement",
+      "exemple_fr": "J'utilise le mot 'exigence' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "experience",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "experience",
+      "exemple_fr": "J'utilise le mot 'experience' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "explicite",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "explicit",
+      "exemple_fr": "J'utilise le mot 'explicite' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "faciliter",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "to facilitate",
+      "exemple_fr": "J'utilise le mot 'faciliter' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "fiabilite",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "reliability",
+      "exemple_fr": "J'utilise le mot 'fiabilite' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "formuler",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to formulate",
+      "exemple_fr": "J'utilise le mot 'formuler' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "habitude",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "habit",
+      "exemple_fr": "J'utilise le mot 'habitude' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "hypothese",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "hypothesis",
+      "exemple_fr": "J'utilise le mot 'hypothese' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "impact",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "impact",
+      "exemple_fr": "J'utilise le mot 'impact' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "implication",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "involvement",
+      "exemple_fr": "J'utilise le mot 'implication' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "inciter",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "to encourage",
+      "exemple_fr": "J'utilise le mot 'inciter' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "indicator",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "indicator",
+      "exemple_fr": "J'utilise le mot 'indicator' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "initiative",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "initiative",
+      "exemple_fr": "J'utilise le mot 'initiative' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "innovation",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "innovation",
+      "exemple_fr": "J'utilise le mot 'innovation' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "inscription",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "registration",
+      "exemple_fr": "J'utilise le mot 'inscription' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "intention",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "intention",
+      "exemple_fr": "J'utilise le mot 'intention' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "interpretation",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "interpretation",
+      "exemple_fr": "J'utilise le mot 'interpretation' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "intervenir",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "to intervene",
+      "exemple_fr": "J'utilise le mot 'intervenir' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "justification",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "justification",
+      "exemple_fr": "J'utilise le mot 'justification' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "lecture",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "reading",
+      "exemple_fr": "J'utilise le mot 'lecture' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "legitimite",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "legitimacy",
+      "exemple_fr": "J'utilise le mot 'legitimite' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "logique",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "logic",
+      "exemple_fr": "J'utilise le mot 'logique' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "maitrise",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "mastery",
+      "exemple_fr": "J'utilise le mot 'maitrise' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "methode",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "method",
+      "exemple_fr": "J'utilise le mot 'methode' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "mobilite",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "mobility",
+      "exemple_fr": "J'utilise le mot 'mobilite' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "module",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "module",
+      "exemple_fr": "J'utilise le mot 'module' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "niveau",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "level",
+      "exemple_fr": "J'utilise le mot 'niveau' pour rendre mon expression plus precise.",
+      "niveau": "A1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "notion",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "notion",
+      "exemple_fr": "J'utilise le mot 'notion' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "obstacle",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "obstacle",
+      "exemple_fr": "J'utilise le mot 'obstacle' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "opinion",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "opinion",
+      "exemple_fr": "J'utilise le mot 'opinion' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "oral",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "oral",
+      "exemple_fr": "J'utilise le mot 'oral' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "organisation",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "organization",
+      "exemple_fr": "J'utilise le mot 'organisation' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "paragraphe",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "paragraph",
+      "exemple_fr": "J'utilise le mot 'paragraphe' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "parcours",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "pathway",
+      "exemple_fr": "J'utilise le mot 'parcours' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "participation",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "participation",
+      "exemple_fr": "J'utilise le mot 'participation' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "pertinence",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "relevance",
+      "exemple_fr": "J'utilise le mot 'pertinence' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "planification",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "planning",
+      "exemple_fr": "J'utilise le mot 'planification' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "ponctualite",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "punctuality",
+      "exemple_fr": "J'utilise le mot 'ponctualite' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "position",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "position",
+      "exemple_fr": "J'utilise le mot 'position' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "preparation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "preparation",
+      "exemple_fr": "J'utilise le mot 'preparation' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Examens"
+    },
+    {
+      "mot": "prioriser",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "to prioritize",
+      "exemple_fr": "J'utilise le mot 'prioriser' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "probleme",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "problem",
+      "exemple_fr": "J'utilise le mot 'probleme' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "procedure",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "procedure",
+      "exemple_fr": "J'utilise le mot 'procedure' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Travail"
+    },
+    {
+      "mot": "progression",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "progression",
+      "exemple_fr": "J'utilise le mot 'progression' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "proposition",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "proposal",
+      "exemple_fr": "J'utilise le mot 'proposition' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "qualite",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "quality",
+      "exemple_fr": "J'utilise le mot 'qualite' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "questionnaire",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "questionnaire",
+      "exemple_fr": "J'utilise le mot 'questionnaire' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "raisonnement",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "reasoning",
+      "exemple_fr": "J'utilise le mot 'raisonnement' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "realiste",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "realistic",
+      "exemple_fr": "J'utilise le mot 'realiste' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "recherche",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "research",
+      "exemple_fr": "J'utilise le mot 'recherche' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "recommandation",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "recommendation",
+      "exemple_fr": "J'utilise le mot 'recommandation' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "redaction",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "writing",
+      "exemple_fr": "J'utilise le mot 'redaction' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "reference",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "reference",
+      "exemple_fr": "J'utilise le mot 'reference' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "regulier",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "regular",
+      "exemple_fr": "J'utilise le mot 'regulier' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "renforcer",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "to strengthen",
+      "exemple_fr": "J'utilise le mot 'renforcer' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Expression"
+    },
+    {
+      "mot": "reponse",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "answer",
+      "exemple_fr": "J'utilise le mot 'reponse' pour rendre mon expression plus precise.",
+      "niveau": "A1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "revision",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "revision",
+      "exemple_fr": "J'utilise le mot 'revision' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "rigueur",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "rigor",
+      "exemple_fr": "J'utilise le mot 'rigueur' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "risque",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "risk",
+      "exemple_fr": "J'utilise le mot 'risque' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "scolarite",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "schooling",
+      "exemple_fr": "J'utilise le mot 'scolarite' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "selection",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "selection",
+      "exemple_fr": "J'utilise le mot 'selection' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "sens",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "meaning",
+      "exemple_fr": "J'utilise le mot 'sens' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "simulateur",
+      "definition_fr": "Terme utile pour parler de technologie dans un contexte de preparation TCF.",
+      "traduction_en": "simulator",
+      "exemple_fr": "J'utilise le mot 'simulateur' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Technologie"
+    },
+    {
+      "mot": "strategie",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "strategy",
+      "exemple_fr": "J'utilise le mot 'strategie' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "systematique",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "systematic",
+      "exemple_fr": "J'utilise le mot 'systematique' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "technique",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "technique",
+      "exemple_fr": "J'utilise le mot 'technique' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "tendance",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "trend",
+      "exemple_fr": "J'utilise le mot 'tendance' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Societe"
+    },
+    {
+      "mot": "these",
+      "definition_fr": "Terme utile pour parler de expression dans un contexte de preparation TCF.",
+      "traduction_en": "thesis",
+      "exemple_fr": "J'utilise le mot 'these' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Expression"
+    },
+    {
+      "mot": "tolerance",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "tolerance",
+      "exemple_fr": "J'utilise le mot 'tolerance' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    },
+    {
+      "mot": "trace",
+      "definition_fr": "Terme utile pour parler de etudes dans un contexte de preparation TCF.",
+      "traduction_en": "trace",
+      "exemple_fr": "J'utilise le mot 'trace' pour rendre mon expression plus precise.",
+      "niveau": "A2",
+      "theme": "Etudes"
+    },
+    {
+      "mot": "validation",
+      "definition_fr": "Terme utile pour parler de examens dans un contexte de preparation TCF.",
+      "traduction_en": "validation",
+      "exemple_fr": "J'utilise le mot 'validation' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Examens"
+    },
+    {
+      "mot": "vigilance",
+      "definition_fr": "Terme utile pour parler de travail dans un contexte de preparation TCF.",
+      "traduction_en": "vigilance",
+      "exemple_fr": "J'utilise le mot 'vigilance' pour rendre mon expression plus precise.",
+      "niveau": "B2",
+      "theme": "Travail"
+    },
+    {
+      "mot": "vision",
+      "definition_fr": "Terme utile pour parler de societe dans un contexte de preparation TCF.",
+      "traduction_en": "vision",
+      "exemple_fr": "J'utilise le mot 'vision' pour rendre mon expression plus precise.",
+      "niveau": "B1",
+      "theme": "Societe"
+    }
+  ],
+  "verb_conjugations": [
+    {
+      "infinitif": "etre",
+      "temps": "present",
+      "niveau": "A1",
+      "formes": {
+        "je": "suis",
+        "tu": "es",
+        "il/elle": "est",
+        "nous": "sommes",
+        "vous": "etes",
+        "ils/elles": "sont"
+      }
+    },
+    {
+      "infinitif": "etre",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "etais",
+        "tu": "etais",
+        "il/elle": "etait",
+        "nous": "etions",
+        "vous": "etiez",
+        "ils/elles": "etaient"
+      }
+    },
+    {
+      "infinitif": "etre",
+      "temps": "futur simple",
+      "niveau": "A2",
+      "formes": {
+        "je": "serai",
+        "tu": "seras",
+        "il/elle": "sera",
+        "nous": "serons",
+        "vous": "serez",
+        "ils/elles": "seront"
+      }
+    },
+    {
+      "infinitif": "etre",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "serais",
+        "tu": "serais",
+        "il/elle": "serait",
+        "nous": "serions",
+        "vous": "seriez",
+        "ils/elles": "seraient"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "present",
+      "niveau": "A1",
+      "formes": {
+        "je": "ai",
+        "tu": "as",
+        "il/elle": "a",
+        "nous": "avons",
+        "vous": "avez",
+        "ils/elles": "ont"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "avais",
+        "tu": "avais",
+        "il/elle": "avait",
+        "nous": "avions",
+        "vous": "aviez",
+        "ils/elles": "avaient"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "futur simple",
+      "niveau": "A2",
+      "formes": {
+        "je": "aurai",
+        "tu": "auras",
+        "il/elle": "aura",
+        "nous": "aurons",
+        "vous": "aurez",
+        "ils/elles": "auront"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "aurais",
+        "tu": "aurais",
+        "il/elle": "aurait",
+        "nous": "aurions",
+        "vous": "auriez",
+        "ils/elles": "auraient"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "present",
+      "niveau": "A1",
+      "formes": {
+        "je": "vais",
+        "tu": "vas",
+        "il/elle": "va",
+        "nous": "allons",
+        "vous": "allez",
+        "ils/elles": "vont"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "allais",
+        "tu": "allais",
+        "il/elle": "allait",
+        "nous": "allions",
+        "vous": "alliez",
+        "ils/elles": "allaient"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "futur simple",
+      "niveau": "A2",
+      "formes": {
+        "je": "irai",
+        "tu": "iras",
+        "il/elle": "ira",
+        "nous": "irons",
+        "vous": "irez",
+        "ils/elles": "iront"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "irais",
+        "tu": "irais",
+        "il/elle": "irait",
+        "nous": "irions",
+        "vous": "iriez",
+        "ils/elles": "iraient"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "present",
+      "niveau": "A1",
+      "formes": {
+        "je": "fais",
+        "tu": "fais",
+        "il/elle": "fait",
+        "nous": "faisons",
+        "vous": "faites",
+        "ils/elles": "font"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "faisais",
+        "tu": "faisais",
+        "il/elle": "faisait",
+        "nous": "faisions",
+        "vous": "faisiez",
+        "ils/elles": "faisaient"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "futur simple",
+      "niveau": "A2",
+      "formes": {
+        "je": "ferai",
+        "tu": "feras",
+        "il/elle": "fera",
+        "nous": "ferons",
+        "vous": "ferez",
+        "ils/elles": "feront"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "ferais",
+        "tu": "ferais",
+        "il/elle": "ferait",
+        "nous": "ferions",
+        "vous": "feriez",
+        "ils/elles": "feraient"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "prends",
+        "tu": "prends",
+        "il/elle": "prend",
+        "nous": "prenons",
+        "vous": "prenez",
+        "ils/elles": "prennent"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "prenais",
+        "tu": "prenais",
+        "il/elle": "prenait",
+        "nous": "prenions",
+        "vous": "preniez",
+        "ils/elles": "prenaient"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "prendrai",
+        "tu": "prendras",
+        "il/elle": "prendra",
+        "nous": "prendrons",
+        "vous": "prendrez",
+        "ils/elles": "prendront"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "prendrais",
+        "tu": "prendrais",
+        "il/elle": "prendrait",
+        "nous": "prendrions",
+        "vous": "prendriez",
+        "ils/elles": "prendraient"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "viens",
+        "tu": "viens",
+        "il/elle": "vient",
+        "nous": "venons",
+        "vous": "venez",
+        "ils/elles": "viennent"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "imparfait",
+      "niveau": "A2",
+      "formes": {
+        "je": "venais",
+        "tu": "venais",
+        "il/elle": "venait",
+        "nous": "venions",
+        "vous": "veniez",
+        "ils/elles": "venaient"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "viendrai",
+        "tu": "viendras",
+        "il/elle": "viendra",
+        "nous": "viendrons",
+        "vous": "viendrez",
+        "ils/elles": "viendront"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "viendrais",
+        "tu": "viendrais",
+        "il/elle": "viendrait",
+        "nous": "viendrions",
+        "vous": "viendriez",
+        "ils/elles": "viendraient"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "peux",
+        "tu": "peux",
+        "il/elle": "peut",
+        "nous": "pouvons",
+        "vous": "pouvez",
+        "ils/elles": "peuvent"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "imparfait",
+      "niveau": "B1",
+      "formes": {
+        "je": "pouvais",
+        "tu": "pouvais",
+        "il/elle": "pouvait",
+        "nous": "pouvions",
+        "vous": "pouviez",
+        "ils/elles": "pouvaient"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "pourrai",
+        "tu": "pourras",
+        "il/elle": "pourra",
+        "nous": "pourrons",
+        "vous": "pourrez",
+        "ils/elles": "pourront"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "pourrais",
+        "tu": "pourrais",
+        "il/elle": "pourrait",
+        "nous": "pourrions",
+        "vous": "pourriez",
+        "ils/elles": "pourraient"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "dois",
+        "tu": "dois",
+        "il/elle": "doit",
+        "nous": "devons",
+        "vous": "devez",
+        "ils/elles": "doivent"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "imparfait",
+      "niveau": "B1",
+      "formes": {
+        "je": "devais",
+        "tu": "devais",
+        "il/elle": "devait",
+        "nous": "devions",
+        "vous": "deviez",
+        "ils/elles": "devaient"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "devrai",
+        "tu": "devras",
+        "il/elle": "devra",
+        "nous": "devrons",
+        "vous": "devrez",
+        "ils/elles": "devront"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "devrais",
+        "tu": "devrais",
+        "il/elle": "devrait",
+        "nous": "devrions",
+        "vous": "devriez",
+        "ils/elles": "devraient"
+      }
+    },
+    {
+      "infinitif": "etre",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "sois",
+        "tu": "sois",
+        "il/elle": "soit",
+        "nous": "soyons",
+        "vous": "soyez",
+        "ils/elles": "soient"
+      }
+    },
+    {
+      "infinitif": "etre",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai ete",
+        "tu": "as ete",
+        "il/elle": "a ete",
+        "nous": "avons ete",
+        "vous": "avez ete",
+        "ils/elles": "ont ete"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "aie",
+        "tu": "aies",
+        "il/elle": "ait",
+        "nous": "ayons",
+        "vous": "ayez",
+        "ils/elles": "aient"
+      }
+    },
+    {
+      "infinitif": "avoir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai eu",
+        "tu": "as eu",
+        "il/elle": "a eu",
+        "nous": "avons eu",
+        "vous": "avez eu",
+        "ils/elles": "ont eu"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "aille",
+        "tu": "ailles",
+        "il/elle": "aille",
+        "nous": "allions",
+        "vous": "alliez",
+        "ils/elles": "aillent"
+      }
+    },
+    {
+      "infinitif": "aller",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "suis alle",
+        "tu": "es alle",
+        "il/elle": "est alle",
+        "nous": "sommes alles",
+        "vous": "etes alles",
+        "ils/elles": "sont alles"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "fasse",
+        "tu": "fasses",
+        "il/elle": "fasse",
+        "nous": "fassions",
+        "vous": "fassiez",
+        "ils/elles": "fassent"
+      }
+    },
+    {
+      "infinitif": "faire",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai fait",
+        "tu": "as fait",
+        "il/elle": "a fait",
+        "nous": "avons fait",
+        "vous": "avez fait",
+        "ils/elles": "ont fait"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "vienne",
+        "tu": "viennes",
+        "il/elle": "vienne",
+        "nous": "venions",
+        "vous": "veniez",
+        "ils/elles": "viennent"
+      }
+    },
+    {
+      "infinitif": "venir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "suis venu",
+        "tu": "es venu",
+        "il/elle": "est venu",
+        "nous": "sommes venus",
+        "vous": "etes venus",
+        "ils/elles": "sont venus"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "puisse",
+        "tu": "puisses",
+        "il/elle": "puisse",
+        "nous": "puissions",
+        "vous": "puissiez",
+        "ils/elles": "puissent"
+      }
+    },
+    {
+      "infinitif": "pouvoir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai pu",
+        "tu": "as pu",
+        "il/elle": "a pu",
+        "nous": "avons pu",
+        "vous": "avez pu",
+        "ils/elles": "ont pu"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "doive",
+        "tu": "doives",
+        "il/elle": "doive",
+        "nous": "devions",
+        "vous": "deviez",
+        "ils/elles": "doivent"
+      }
+    },
+    {
+      "infinitif": "devoir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai du",
+        "tu": "as du",
+        "il/elle": "a du",
+        "nous": "avons du",
+        "vous": "avez du",
+        "ils/elles": "ont du"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "veux",
+        "tu": "veux",
+        "il/elle": "veut",
+        "nous": "voulons",
+        "vous": "voulez",
+        "ils/elles": "veulent"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "imparfait",
+      "niveau": "B1",
+      "formes": {
+        "je": "voulais",
+        "tu": "voulais",
+        "il/elle": "voulait",
+        "nous": "voulions",
+        "vous": "vouliez",
+        "ils/elles": "voulaient"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "voudrai",
+        "tu": "voudras",
+        "il/elle": "voudra",
+        "nous": "voudrons",
+        "vous": "voudrez",
+        "ils/elles": "voudront"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "voudrais",
+        "tu": "voudrais",
+        "il/elle": "voudrait",
+        "nous": "voudrions",
+        "vous": "voudriez",
+        "ils/elles": "voudraient"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "veuille",
+        "tu": "veuilles",
+        "il/elle": "veuille",
+        "nous": "voulions",
+        "vous": "vouliez",
+        "ils/elles": "veuillent"
+      }
+    },
+    {
+      "infinitif": "vouloir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai voulu",
+        "tu": "as voulu",
+        "il/elle": "a voulu",
+        "nous": "avons voulu",
+        "vous": "avez voulu",
+        "ils/elles": "ont voulu"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "prenne",
+        "tu": "prennes",
+        "il/elle": "prenne",
+        "nous": "prenions",
+        "vous": "preniez",
+        "ils/elles": "prennent"
+      }
+    },
+    {
+      "infinitif": "prendre",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai pris",
+        "tu": "as pris",
+        "il/elle": "a pris",
+        "nous": "avons pris",
+        "vous": "avez pris",
+        "ils/elles": "ont pris"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "present",
+      "niveau": "A2",
+      "formes": {
+        "je": "sais",
+        "tu": "sais",
+        "il/elle": "sait",
+        "nous": "savons",
+        "vous": "savez",
+        "ils/elles": "savent"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "imparfait",
+      "niveau": "B1",
+      "formes": {
+        "je": "savais",
+        "tu": "savais",
+        "il/elle": "savait",
+        "nous": "savions",
+        "vous": "saviez",
+        "ils/elles": "savaient"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "futur simple",
+      "niveau": "B1",
+      "formes": {
+        "je": "saurai",
+        "tu": "sauras",
+        "il/elle": "saura",
+        "nous": "saurons",
+        "vous": "saurez",
+        "ils/elles": "sauront"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "conditionnel present",
+      "niveau": "B1",
+      "formes": {
+        "je": "saurais",
+        "tu": "saurais",
+        "il/elle": "saurait",
+        "nous": "saurions",
+        "vous": "sauriez",
+        "ils/elles": "sauraient"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "subjonctif present",
+      "niveau": "B2",
+      "formes": {
+        "je": "sache",
+        "tu": "saches",
+        "il/elle": "sache",
+        "nous": "sachions",
+        "vous": "sachiez",
+        "ils/elles": "sachent"
+      }
+    },
+    {
+      "infinitif": "savoir",
+      "temps": "passe compose",
+      "niveau": "A2",
+      "formes": {
+        "je": "ai su",
+        "tu": "as su",
+        "il/elle": "a su",
+        "nous": "avons su",
+        "vous": "avez su",
+        "ils/elles": "ont su"
+      }
+    }
+  ],
+  "exercises": [
+    {
+      "type": "qcm",
+      "theme": "Articles",
+      "niveau": "A2",
+      "question": "Je voudrais ___ eau minerale.",
+      "options": [
+        "de",
+        "du",
+        "de la",
+        "des"
+      ],
+      "answer_index": 2,
+      "explication": "Eau est feminin singulier: de la.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Articles partitifs"
+    },
+    {
+      "type": "qcm",
+      "theme": "Articles",
+      "niveau": "A2",
+      "question": "Je ne bois pas ___ cafe le soir.",
+      "options": [
+        "du",
+        "de",
+        "des",
+        "le"
+      ],
+      "answer_index": 1,
+      "explication": "Apres negation, on emploie souvent de.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Articles partitifs"
+    },
+    {
+      "type": "qcm",
+      "theme": "Negation",
+      "niveau": "A2",
+      "question": "Nous ne voyons ___ dans la salle.",
+      "options": [
+        "rien",
+        "personne",
+        "jamais",
+        "plus"
+      ],
+      "answer_index": 1,
+      "explication": "Pour les personnes: ne...personne.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Negation simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Negation",
+      "niveau": "A2",
+      "question": "Choisis la phrase correcte.",
+      "options": [
+        "Je ne mange jamais rien.",
+        "Je ne jamais mange rien.",
+        "Je mange ne jamais rien.",
+        "Jamais je ne rien mange."
+      ],
+      "answer_index": 0,
+      "explication": "La negation entoure le verbe.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Negation simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Comparatif",
+      "niveau": "A2",
+      "question": "Ce cours est ___ utile que l'autre.",
+      "options": [
+        "plus",
+        "le plus",
+        "mieux",
+        "meilleur"
+      ],
+      "answer_index": 0,
+      "explication": "Comparatif de superiorite: plus ... que.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Comparatif et superlatif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Comparatif",
+      "niveau": "A2",
+      "question": "Paul court ___ que moi.",
+      "options": [
+        "mieux",
+        "meilleur",
+        "plus bon",
+        "plus bien"
+      ],
+      "answer_index": 0,
+      "explication": "Comparatif de bien -> mieux.",
+      "lesson_category_slug": "grammaire",
+      "lesson_titre": "Comparatif et superlatif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Pronoms",
+      "niveau": "B1",
+      "question": "Je parle a mes parents. Je ___ parle.",
+      "options": [
+        "les",
+        "leur",
+        "lui",
+        "en"
+      ],
+      "answer_index": 1,
+      "explication": "COI pluriel: leur.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms COD et COI"
+    },
+    {
+      "type": "qcm",
+      "theme": "Pronoms",
+      "niveau": "B1",
+      "question": "Je vois mes amis. Je ___ vois.",
+      "options": [
+        "leur",
+        "les",
+        "en",
+        "lui"
+      ],
+      "answer_index": 1,
+      "explication": "COD pluriel: les.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms COD et COI"
+    },
+    {
+      "type": "qcm",
+      "theme": "Pronoms",
+      "niveau": "B1",
+      "question": "Tu vas a la bibliotheque? Oui, j'___ vais.",
+      "options": [
+        "en",
+        "y",
+        "la",
+        "leur"
+      ],
+      "answer_index": 1,
+      "explication": "Lieu introduit par a -> y.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms y et en"
+    },
+    {
+      "type": "qcm",
+      "theme": "Pronoms",
+      "niveau": "B1",
+      "question": "Tu as besoin de ce livre? Oui, j'___ ai besoin.",
+      "options": [
+        "y",
+        "en",
+        "le",
+        "lui"
+      ],
+      "answer_index": 1,
+      "explication": "Besoin de -> en.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms y et en"
+    },
+    {
+      "type": "qcm",
+      "theme": "Relatifs",
+      "niveau": "B1",
+      "question": "Le livre ___ est sur la table est a moi.",
+      "options": [
+        "qui",
+        "que",
+        "dont",
+        "ou"
+      ],
+      "answer_index": 0,
+      "explication": "Qui remplace le sujet.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms relatifs"
+    },
+    {
+      "type": "qcm",
+      "theme": "Relatifs",
+      "niveau": "B1",
+      "question": "La ville ___ je prefere est Lille.",
+      "options": [
+        "qui",
+        "que",
+        "dont",
+        "ou"
+      ],
+      "answer_index": 1,
+      "explication": "Que remplace le COD.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms relatifs"
+    },
+    {
+      "type": "qcm",
+      "theme": "Relatifs",
+      "niveau": "B1",
+      "question": "Le sujet ___ nous parlons est important.",
+      "options": [
+        "qui",
+        "que",
+        "dont",
+        "ou"
+      ],
+      "answer_index": 2,
+      "explication": "Parler de -> dont.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms relatifs"
+    },
+    {
+      "type": "qcm",
+      "theme": "Connecteurs",
+      "niveau": "B2",
+      "question": "Il revise beaucoup, ___ il progresse.",
+      "options": [
+        "cependant",
+        "donc",
+        "pourtant",
+        "car"
+      ],
+      "answer_index": 1,
+      "explication": "Relation de consequence -> donc.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Connecteurs logiques"
+    },
+    {
+      "type": "qcm",
+      "theme": "Connecteurs",
+      "niveau": "B2",
+      "question": "Le sujet est difficile; ___, je continue.",
+      "options": [
+        "donc",
+        "car",
+        "cependant",
+        "ainsi"
+      ],
+      "answer_index": 2,
+      "explication": "Opposition -> cependant.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Connecteurs logiques"
+    },
+    {
+      "type": "qcm",
+      "theme": "Present",
+      "niveau": "A1",
+      "question": "Nous ___ francais en classe.",
+      "options": [
+        "parlons",
+        "parlez",
+        "parle",
+        "parler"
+      ],
+      "answer_index": 0,
+      "explication": "Avec nous, terminaison -ons.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Present de l'indicatif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Present",
+      "niveau": "A1",
+      "question": "Ils ___ a huit heures.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arrivent",
+        "arrivons"
+      ],
+      "answer_index": 2,
+      "explication": "Sujet pluriel: arrivent.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Present de l'indicatif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Passe compose",
+      "niveau": "A2",
+      "question": "Hier, j'___ mes devoirs.",
+      "options": [
+        "ai fini",
+        "finissais",
+        "finirai",
+        "finirais"
+      ],
+      "answer_index": 0,
+      "explication": "Action ponctuelle terminee.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Passe compose"
+    },
+    {
+      "type": "qcm",
+      "theme": "Passe compose",
+      "niveau": "A2",
+      "question": "Elles ___ tres tot.",
+      "options": [
+        "ont arrive",
+        "sont arrivees",
+        "sont arrive",
+        "ont arrivees"
+      ],
+      "answer_index": 1,
+      "explication": "Avec etre, accord feminin pluriel.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Passe compose"
+    },
+    {
+      "type": "qcm",
+      "theme": "Imparfait",
+      "niveau": "A2",
+      "question": "Quand j'etais enfant, je ___ beaucoup.",
+      "options": [
+        "ai lu",
+        "lisais",
+        "lirais",
+        "lirai"
+      ],
+      "answer_index": 1,
+      "explication": "Habitude passee -> imparfait.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Imparfait"
+    },
+    {
+      "type": "qcm",
+      "theme": "Imparfait",
+      "niveau": "A2",
+      "question": "Il ___ toujours en bus.",
+      "options": [
+        "allait",
+        "est alle",
+        "ira",
+        "irait"
+      ],
+      "answer_index": 0,
+      "explication": "Habitude dans le passe -> imparfait.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Imparfait"
+    },
+    {
+      "type": "qcm",
+      "theme": "Imparfait/Passe compose",
+      "niveau": "B1",
+      "question": "Il ___ quand le telephone a sonne.",
+      "options": [
+        "dormait",
+        "a dormi",
+        "dormira",
+        "dormirait"
+      ],
+      "answer_index": 0,
+      "explication": "Action de fond en cours -> imparfait.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Imparfait vs passe compose"
+    },
+    {
+      "type": "qcm",
+      "theme": "Imparfait/Passe compose",
+      "niveau": "B1",
+      "question": "Je ___ quand elle est entree.",
+      "options": [
+        "etudiais",
+        "ai etudie",
+        "etudierai",
+        "etudierais"
+      ],
+      "answer_index": 0,
+      "explication": "Contexte en cours -> imparfait.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Imparfait vs passe compose"
+    },
+    {
+      "type": "qcm",
+      "theme": "Futur",
+      "niveau": "A2",
+      "question": "Demain, nous ___ au cinema.",
+      "options": [
+        "allons",
+        "irons",
+        "allions",
+        "irions"
+      ],
+      "answer_index": 1,
+      "explication": "Action future -> futur simple.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Futur simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Futur",
+      "niveau": "A2",
+      "question": "Je ___ ce chapitre ce soir.",
+      "options": [
+        "termine",
+        "terminais",
+        "terminerai",
+        "terminerais"
+      ],
+      "answer_index": 2,
+      "explication": "Futur simple en -rai.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Futur simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conditionnel",
+      "niveau": "B1",
+      "question": "Je ___ reserver une table.",
+      "options": [
+        "veux",
+        "voudrais",
+        "voudrai",
+        "veux que"
+      ],
+      "answer_index": 1,
+      "explication": "Politesse -> conditionnel present.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conditionnel present"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conditionnel",
+      "niveau": "B1",
+      "question": "Si j'avais plus de temps, je ___ plus.",
+      "options": [
+        "lirai",
+        "lis",
+        "lirais",
+        "ai lu"
+      ],
+      "answer_index": 2,
+      "explication": "Si + imparfait -> conditionnel.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conditionnel present"
+    },
+    {
+      "type": "qcm",
+      "theme": "Subjonctif",
+      "niveau": "B2",
+      "question": "Il faut que tu ___ ce travail.",
+      "options": [
+        "finis",
+        "finiras",
+        "finisses",
+        "as fini"
+      ],
+      "answer_index": 2,
+      "explication": "Apres il faut que -> subjonctif.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Subjonctif present"
+    },
+    {
+      "type": "qcm",
+      "theme": "Subjonctif",
+      "niveau": "B2",
+      "question": "Bien qu'il ___ fatigue, il continue.",
+      "options": [
+        "est",
+        "sera",
+        "soit",
+        "etait"
+      ],
+      "answer_index": 2,
+      "explication": "Bien que + subjonctif.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Subjonctif present"
+    },
+    {
+      "type": "qcm",
+      "theme": "Plus-que-parfait",
+      "niveau": "B1",
+      "question": "Il ___ deja parti quand je suis arrive.",
+      "options": [
+        "est",
+        "avait",
+        "avait ete",
+        "a"
+      ],
+      "answer_index": 2,
+      "explication": "Anterieur dans le passe: plus-que-parfait.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Plus-que-parfait"
+    },
+    {
+      "type": "qcm",
+      "theme": "Gerondif",
+      "niveau": "B1",
+      "question": "Il apprend le vocabulaire ___ lisant des articles.",
+      "options": [
+        "en",
+        "a",
+        "de",
+        "pour"
+      ],
+      "answer_index": 0,
+      "explication": "Gerondif: en + participe present.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Gerondif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Nous ___ prets pour le cours. (etre, present)",
+      "options": [
+        "sommes",
+        "etes",
+        "sont",
+        "es"
+      ],
+      "answer_index": 0,
+      "explication": "Nous + etre -> sommes.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Present de l'indicatif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Je ___ au marche demain. (aller, futur simple)",
+      "options": [
+        "vais",
+        "irai",
+        "allais",
+        "irais"
+      ],
+      "answer_index": 1,
+      "explication": "Futur simple d'aller: irai.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Futur simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Vous ___ mieux travailler. (devoir, conditionnel)",
+      "options": [
+        "devrez",
+        "devez",
+        "devriez",
+        "deviez"
+      ],
+      "answer_index": 2,
+      "explication": "Conditionnel present: vous devriez.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conditionnel present"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Ils ___ souvent en avance. (venir, imparfait)",
+      "options": [
+        "venaient",
+        "viennent",
+        "viendront",
+        "viendraient"
+      ],
+      "answer_index": 0,
+      "explication": "Imparfait de venir: ils venaient.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Imparfait"
+    },
+    {
+      "type": "qcm",
+      "theme": "Grammaire",
+      "niveau": "B1",
+      "question": "Choisis la phrase correcte.",
+      "options": [
+        "Je lui parle chaque jour.",
+        "Je le parle chaque jour.",
+        "Je parle lui chaque jour.",
+        "Je parle le chaque jour."
+      ],
+      "answer_index": 0,
+      "explication": "Parler a quelqu'un -> lui.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms COD et COI"
+    },
+    {
+      "type": "qcm",
+      "theme": "Grammaire",
+      "niveau": "B1",
+      "question": "Choisis la forme correcte.",
+      "options": [
+        "J'en vais.",
+        "J'y vais.",
+        "Je vais y le.",
+        "Je vais en."
+      ],
+      "answer_index": 1,
+      "explication": "Aller a un lieu -> y.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Pronoms y et en"
+    },
+    {
+      "type": "qcm",
+      "theme": "Expression",
+      "niveau": "B2",
+      "question": "Quel connecteur introduit une concession?",
+      "options": [
+        "donc",
+        "car",
+        "neanmoins",
+        "ainsi"
+      ],
+      "answer_index": 2,
+      "explication": "Neanmoins marque une concession.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Connecteurs logiques"
+    },
+    {
+      "type": "qcm",
+      "theme": "Expression",
+      "niveau": "B2",
+      "question": "Quel element manque dans un texte argumentatif?",
+      "options": [
+        "Une these claire",
+        "Des exemples",
+        "Une structure",
+        "Des emoticones"
+      ],
+      "answer_index": 3,
+      "explication": "Les emoticones ne conviennent pas au registre formel.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Connecteurs logiques"
+    },
+    {
+      "type": "qcm",
+      "theme": "Subjonctif",
+      "niveau": "B2",
+      "question": "Il est important que vous ___ ce chapitre.",
+      "options": [
+        "lisez",
+        "lisiez",
+        "lirez",
+        "avez lu"
+      ],
+      "answer_index": 1,
+      "explication": "Apres 'il est important que', on utilise le subjonctif.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Declencheurs du subjonctif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Subjonctif",
+      "niveau": "B2",
+      "question": "Bien qu'il ___ tard, il continue de travailler.",
+      "options": [
+        "est",
+        "sera",
+        "soit",
+        "etait"
+      ],
+      "answer_index": 2,
+      "explication": "Bien que est suivi du subjonctif.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Declencheurs du subjonctif"
+    },
+    {
+      "type": "qcm",
+      "theme": "Concordance",
+      "niveau": "B2",
+      "question": "Il a dit qu'il ___ le lendemain.",
+      "options": [
+        "vient",
+        "viendra",
+        "viendrait",
+        "venait"
+      ],
+      "answer_index": 2,
+      "explication": "Discours rapporte au passe: conditionnel present.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Concordance des temps"
+    },
+    {
+      "type": "qcm",
+      "theme": "Concordance",
+      "niveau": "B2",
+      "question": "Je savais qu'elle ___ deja termine.",
+      "options": [
+        "avait",
+        "a",
+        "aura",
+        "aurait"
+      ],
+      "answer_index": 0,
+      "explication": "Anterieurite dans le passe: plus-que-parfait.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Concordance des temps"
+    },
+    {
+      "type": "qcm",
+      "theme": "Participe passe",
+      "niveau": "B2",
+      "question": "Les lettres que j'ai ___ sont claires.",
+      "options": [
+        "ecrit",
+        "ecrites",
+        "ecrits",
+        "ecrite"
+      ],
+      "answer_index": 1,
+      "explication": "COD place avant + feminin pluriel: ecrites.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Accord du participe passe"
+    },
+    {
+      "type": "qcm",
+      "theme": "Participe passe",
+      "niveau": "B2",
+      "question": "Elles se sont ___ hier soir.",
+      "options": [
+        "parlees",
+        "parle",
+        "parles",
+        "parler"
+      ],
+      "answer_index": 1,
+      "explication": "Se parler = COI, donc pas d'accord.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Accord du participe passe"
+    },
+    {
+      "type": "qcm",
+      "theme": "Futur proche",
+      "niveau": "B1",
+      "question": "Je ___ commencer ma redaction.",
+      "options": [
+        "vais",
+        "irai",
+        "allais",
+        "irais"
+      ],
+      "answer_index": 0,
+      "explication": "Futur proche: aller au present + infinitif.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Futur proche vs futur simple"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conditionnel passe",
+      "niveau": "B2",
+      "question": "Si j'avais revise, j'___ mieux reussi.",
+      "options": [
+        "aurais",
+        "aurai",
+        "avais",
+        "a"
+      ],
+      "answer_index": 0,
+      "explication": "Hypothese non realisee: conditionnel passe.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conditionnel passe"
+    },
+    {
+      "type": "qcm",
+      "theme": "Discours indirect",
+      "niveau": "B2",
+      "question": "Direct: Elle dit: \"Je suis prete.\" -> Indirect:",
+      "options": [
+        "Elle dit qu'elle est prete.",
+        "Elle dit qu'elle soit prete.",
+        "Elle dit que je suis prete.",
+        "Elle dit qu'elle etait prete."
+      ],
+      "answer_index": 0,
+      "explication": "Au present, on garde le present pour rapporter une parole actuelle.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Discours direct et indirect"
+    },
+    {
+      "type": "qcm",
+      "theme": "Negation",
+      "niveau": "B1",
+      "question": "Choisis la phrase avec une restriction.",
+      "options": [
+        "Je ne travaille que le matin.",
+        "Je ne travaille jamais le matin.",
+        "Je ne travaille plus le matin.",
+        "Je ne travaille personne."
+      ],
+      "answer_index": 0,
+      "explication": "Ne...que exprime la restriction.",
+      "lesson_category_slug": "regles-grammaire",
+      "lesson_titre": "Negation complexe"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: vous ___ (prendre, imparfait).",
+      "options": [
+        "prenais",
+        "prenais",
+        "preniez",
+        "prenait"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'vous', la forme correcte de 'prendre' au imparfait est 'preniez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (vouloir, present).",
+      "options": [
+        "veux",
+        "voulons",
+        "veut",
+        "veulent"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'ils/elles', la forme correcte de 'vouloir' au present est 'veulent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: tu ___ (avoir, futur simple).",
+      "options": [
+        "aurai",
+        "aurons",
+        "auras",
+        "aurez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'tu', la forme correcte de 'avoir' au futur simple est 'auras'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (faire, futur simple).",
+      "options": [
+        "ferez",
+        "ferai",
+        "fera",
+        "feront"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'ils/elles', la forme correcte de 'faire' au futur simple est 'feront'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: il/elle ___ (avoir, imparfait).",
+      "options": [
+        "avais",
+        "avaient",
+        "avait",
+        "avais"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'il/elle', la forme correcte de 'avoir' au imparfait est 'avait'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: vous ___ (vouloir, futur simple).",
+      "options": [
+        "voudront",
+        "voudrez",
+        "voudrai",
+        "voudra"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'vous', la forme correcte de 'vouloir' au futur simple est 'voudrez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: je ___ (etre, subjonctif present).",
+      "options": [
+        "soit",
+        "soyons",
+        "soient",
+        "sois"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'je', la forme correcte de 'etre' au subjonctif present est 'sois'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: je ___ (venir, present).",
+      "options": [
+        "vient",
+        "venez",
+        "viens",
+        "viens"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'venir' au present est 'viens'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (etre, conditionnel present).",
+      "options": [
+        "seriez",
+        "serais",
+        "seraient",
+        "serais"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'etre' au conditionnel present est 'serais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: nous ___ (pouvoir, subjonctif present).",
+      "options": [
+        "puisse",
+        "puissiez",
+        "puissent",
+        "puissions"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'nous', la forme correcte de 'pouvoir' au subjonctif present est 'puissions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: je ___ (avoir, present).",
+      "options": [
+        "avez",
+        "a",
+        "ai",
+        "as"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'avoir' au present est 'ai'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: tu ___ (savoir, subjonctif present).",
+      "options": [
+        "sache",
+        "sachions",
+        "sache",
+        "saches"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'tu', la forme correcte de 'savoir' au subjonctif present est 'saches'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: tu ___ (prendre, imparfait).",
+      "options": [
+        "prenais",
+        "preniez",
+        "prenait",
+        "prenaient"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'tu', la forme correcte de 'prendre' au imparfait est 'prenais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: vous ___ (venir, subjonctif present).",
+      "options": [
+        "vienne",
+        "viennent",
+        "vienne",
+        "veniez"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'vous', la forme correcte de 'venir' au subjonctif present est 'veniez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: tu ___ (aller, subjonctif present).",
+      "options": [
+        "allions",
+        "alliez",
+        "ailles",
+        "aillent"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'tu', la forme correcte de 'aller' au subjonctif present est 'ailles'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: nous ___ (savoir, subjonctif present).",
+      "options": [
+        "sache",
+        "sachions",
+        "saches",
+        "sachiez"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'nous', la forme correcte de 'savoir' au subjonctif present est 'sachions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: nous ___ (savoir, conditionnel present).",
+      "options": [
+        "sauriez",
+        "saurais",
+        "saurions",
+        "sauraient"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'nous', la forme correcte de 'savoir' au conditionnel present est 'saurions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: il/elle ___ (avoir, futur simple).",
+      "options": [
+        "aurai",
+        "aura",
+        "auront",
+        "aurons"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'il/elle', la forme correcte de 'avoir' au futur simple est 'aura'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: il/elle ___ (pouvoir, futur simple).",
+      "options": [
+        "pourrai",
+        "pourrez",
+        "pourra",
+        "pourront"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'il/elle', la forme correcte de 'pouvoir' au futur simple est 'pourra'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (devoir, present).",
+      "options": [
+        "dois",
+        "devons",
+        "doivent",
+        "doit"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'ils/elles', la forme correcte de 'devoir' au present est 'doivent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: ils/elles ___ (vouloir, imparfait).",
+      "options": [
+        "voulions",
+        "vouliez",
+        "voulaient",
+        "voulait"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'ils/elles', la forme correcte de 'vouloir' au imparfait est 'voulaient'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: tu ___ (etre, present).",
+      "options": [
+        "est",
+        "suis",
+        "sont",
+        "es"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'tu', la forme correcte de 'etre' au present est 'es'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: il/elle ___ (pouvoir, subjonctif present).",
+      "options": [
+        "puisse",
+        "puissiez",
+        "puissent",
+        "puisse"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'pouvoir' au subjonctif present est 'puisse'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: ils/elles ___ (vouloir, futur simple).",
+      "options": [
+        "voudras",
+        "voudra",
+        "voudront",
+        "voudrez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'ils/elles', la forme correcte de 'vouloir' au futur simple est 'voudront'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: je ___ (pouvoir, present).",
+      "options": [
+        "pouvez",
+        "peuvent",
+        "pouvons",
+        "peux"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'je', la forme correcte de 'pouvoir' au present est 'peux'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (venir, futur simple).",
+      "options": [
+        "viendras",
+        "viendra",
+        "viendrez",
+        "viendrai"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'tu', la forme correcte de 'venir' au futur simple est 'viendras'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (vouloir, futur simple).",
+      "options": [
+        "voudront",
+        "voudra",
+        "voudrai",
+        "voudras"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'vouloir' au futur simple est 'voudrai'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: il/elle ___ (aller, subjonctif present).",
+      "options": [
+        "aille",
+        "aille",
+        "aillent",
+        "allions"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'aller' au subjonctif present est 'aille'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: il/elle ___ (faire, futur simple).",
+      "options": [
+        "fera",
+        "ferai",
+        "ferez",
+        "feras"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'faire' au futur simple est 'fera'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: ils/elles ___ (etre, present).",
+      "options": [
+        "est",
+        "sont",
+        "etes",
+        "suis"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'ils/elles', la forme correcte de 'etre' au present est 'sont'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (savoir, futur simple).",
+      "options": [
+        "saura",
+        "saurai",
+        "sauras",
+        "saurez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'tu', la forme correcte de 'savoir' au futur simple est 'sauras'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: nous ___ (venir, present).",
+      "options": [
+        "viennent",
+        "venons",
+        "vient",
+        "venez"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'nous', la forme correcte de 'venir' au present est 'venons'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: vous ___ (devoir, conditionnel present).",
+      "options": [
+        "devriez",
+        "devrais",
+        "devrais",
+        "devrait"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'vous', la forme correcte de 'devoir' au conditionnel present est 'devriez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: vous ___ (avoir, imparfait).",
+      "options": [
+        "avais",
+        "avait",
+        "avions",
+        "aviez"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'vous', la forme correcte de 'avoir' au imparfait est 'aviez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: nous ___ (devoir, subjonctif present).",
+      "options": [
+        "doive",
+        "doive",
+        "doivent",
+        "devions"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'nous', la forme correcte de 'devoir' au subjonctif present est 'devions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (devoir, futur simple).",
+      "options": [
+        "devront",
+        "devrai",
+        "devras",
+        "devra"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'tu', la forme correcte de 'devoir' au futur simple est 'devras'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (vouloir, conditionnel present).",
+      "options": [
+        "voudraient",
+        "voudrais",
+        "voudrait",
+        "voudrais"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'je', la forme correcte de 'vouloir' au conditionnel present est 'voudrais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (prendre, imparfait).",
+      "options": [
+        "prenaient",
+        "prenais",
+        "prenais",
+        "preniez"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'ils/elles', la forme correcte de 'prendre' au imparfait est 'prenaient'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (prendre, conditionnel present).",
+      "options": [
+        "prendraient",
+        "prendrais",
+        "prendriez",
+        "prendrait"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'prendre' au conditionnel present est 'prendrais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: je ___ (aller, present).",
+      "options": [
+        "vais",
+        "allez",
+        "vont",
+        "allons"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'je', la forme correcte de 'aller' au present est 'vais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (vouloir, conditionnel present).",
+      "options": [
+        "voudrions",
+        "voudrais",
+        "voudrait",
+        "voudraient"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'vouloir' au conditionnel present est 'voudrais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: il/elle ___ (vouloir, imparfait).",
+      "options": [
+        "voulait",
+        "voulais",
+        "voulions",
+        "voulais"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'vouloir' au imparfait est 'voulait'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (savoir, imparfait).",
+      "options": [
+        "savais",
+        "savaient",
+        "savions",
+        "savais"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'je', la forme correcte de 'savoir' au imparfait est 'savais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: tu ___ (faire, present).",
+      "options": [
+        "faisons",
+        "fais",
+        "fait",
+        "font"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'faire' au present est 'fais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: vous ___ (prendre, subjonctif present).",
+      "options": [
+        "prennes",
+        "prenne",
+        "prenions",
+        "preniez"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'vous', la forme correcte de 'prendre' au subjonctif present est 'preniez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: vous ___ (prendre, present).",
+      "options": [
+        "prenez",
+        "prends",
+        "prennent",
+        "prend"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'vous', la forme correcte de 'prendre' au present est 'prenez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: nous ___ (vouloir, subjonctif present).",
+      "options": [
+        "voulions",
+        "veuille",
+        "veuille",
+        "veuillent"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'nous', la forme correcte de 'vouloir' au subjonctif present est 'voulions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: nous ___ (pouvoir, futur simple).",
+      "options": [
+        "pourrez",
+        "pourras",
+        "pourront",
+        "pourrons"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'nous', la forme correcte de 'pouvoir' au futur simple est 'pourrons'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: vous ___ (aller, subjonctif present).",
+      "options": [
+        "allions",
+        "aille",
+        "alliez",
+        "ailles"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'vous', la forme correcte de 'aller' au subjonctif present est 'alliez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: tu ___ (aller, imparfait).",
+      "options": [
+        "allais",
+        "allais",
+        "alliez",
+        "allions"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'tu', la forme correcte de 'aller' au imparfait est 'allais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: je ___ (etre, imparfait).",
+      "options": [
+        "etais",
+        "etais",
+        "etaient",
+        "etiez"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'je', la forme correcte de 'etre' au imparfait est 'etais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: ils/elles ___ (prendre, subjonctif present).",
+      "options": [
+        "prenions",
+        "prennent",
+        "prenne",
+        "prennes"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'ils/elles', la forme correcte de 'prendre' au subjonctif present est 'prennent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A1",
+      "question": "Complete: il/elle ___ (avoir, present).",
+      "options": [
+        "avons",
+        "ont",
+        "avez",
+        "a"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'il/elle', la forme correcte de 'avoir' au present est 'a'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: ils/elles ___ (devoir, subjonctif present).",
+      "options": [
+        "deviez",
+        "doive",
+        "doives",
+        "doivent"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'ils/elles', la forme correcte de 'devoir' au subjonctif present est 'doivent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: ils/elles ___ (prendre, futur simple).",
+      "options": [
+        "prendront",
+        "prendrez",
+        "prendra",
+        "prendras"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'ils/elles', la forme correcte de 'prendre' au futur simple est 'prendront'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (venir, conditionnel present).",
+      "options": [
+        "viendrais",
+        "viendraient",
+        "viendrions",
+        "viendrais"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'tu', la forme correcte de 'venir' au conditionnel present est 'viendrais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: nous ___ (pouvoir, imparfait).",
+      "options": [
+        "pouvais",
+        "pouvais",
+        "pouviez",
+        "pouvions"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'nous', la forme correcte de 'pouvoir' au imparfait est 'pouvions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: nous ___ (prendre, imparfait).",
+      "options": [
+        "prenait",
+        "prenais",
+        "prenions",
+        "prenaient"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'nous', la forme correcte de 'prendre' au imparfait est 'prenions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: il/elle ___ (savoir, futur simple).",
+      "options": [
+        "saura",
+        "saurez",
+        "sauront",
+        "saurai"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'savoir' au futur simple est 'saura'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: nous ___ (devoir, conditionnel present).",
+      "options": [
+        "devriez",
+        "devrais",
+        "devrions",
+        "devrais"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'nous', la forme correcte de 'devoir' au conditionnel present est 'devrions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: vous ___ (devoir, subjonctif present).",
+      "options": [
+        "deviez",
+        "doives",
+        "doive",
+        "doive"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'vous', la forme correcte de 'devoir' au subjonctif present est 'deviez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: nous ___ (vouloir, imparfait).",
+      "options": [
+        "voulais",
+        "voulions",
+        "voulaient",
+        "voulait"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'nous', la forme correcte de 'vouloir' au imparfait est 'voulions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: vous ___ (avoir, conditionnel present).",
+      "options": [
+        "auriez",
+        "aurais",
+        "aurions",
+        "aurais"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'vous', la forme correcte de 'avoir' au conditionnel present est 'auriez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: vous ___ (vouloir, conditionnel present).",
+      "options": [
+        "voudrais",
+        "voudrais",
+        "voudriez",
+        "voudraient"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'vous', la forme correcte de 'vouloir' au conditionnel present est 'voudriez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: je ___ (devoir, subjonctif present).",
+      "options": [
+        "deviez",
+        "doives",
+        "doive",
+        "doivent"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'devoir' au subjonctif present est 'doive'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: tu ___ (venir, subjonctif present).",
+      "options": [
+        "vienne",
+        "vienne",
+        "viennes",
+        "veniez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'tu', la forme correcte de 'venir' au subjonctif present est 'viennes'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: il/elle ___ (vouloir, present).",
+      "options": [
+        "veulent",
+        "veux",
+        "veut",
+        "voulez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'il/elle', la forme correcte de 'vouloir' au present est 'veut'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (venir, futur simple).",
+      "options": [
+        "viendra",
+        "viendras",
+        "viendrai",
+        "viendrez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'venir' au futur simple est 'viendrai'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (aller, futur simple).",
+      "options": [
+        "irons",
+        "iront",
+        "irai",
+        "iras"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'ils/elles', la forme correcte de 'aller' au futur simple est 'iront'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: nous ___ (aller, subjonctif present).",
+      "options": [
+        "ailles",
+        "aillent",
+        "alliez",
+        "allions"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'nous', la forme correcte de 'aller' au subjonctif present est 'allions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (avoir, conditionnel present).",
+      "options": [
+        "aurait",
+        "auriez",
+        "aurais",
+        "aurions"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'je', la forme correcte de 'avoir' au conditionnel present est 'aurais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (venir, imparfait).",
+      "options": [
+        "venaient",
+        "veniez",
+        "venais",
+        "venait"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'ils/elles', la forme correcte de 'venir' au imparfait est 'venaient'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: je ___ (savoir, present).",
+      "options": [
+        "savent",
+        "sais",
+        "sait",
+        "sais"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'je', la forme correcte de 'savoir' au present est 'sais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: tu ___ (savoir, present).",
+      "options": [
+        "savez",
+        "sais",
+        "savent",
+        "sait"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'savoir' au present est 'sais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: ils/elles ___ (pouvoir, subjonctif present).",
+      "options": [
+        "puisse",
+        "puissent",
+        "puissions",
+        "puissiez"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'ils/elles', la forme correcte de 'pouvoir' au subjonctif present est 'puissent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: nous ___ (etre, imparfait).",
+      "options": [
+        "etais",
+        "etaient",
+        "etions",
+        "etiez"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'nous', la forme correcte de 'etre' au imparfait est 'etions'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: il/elle ___ (venir, futur simple).",
+      "options": [
+        "viendrez",
+        "viendra",
+        "viendrai",
+        "viendront"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'il/elle', la forme correcte de 'venir' au futur simple est 'viendra'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: nous ___ (prendre, present).",
+      "options": [
+        "prenons",
+        "prennent",
+        "prends",
+        "prenez"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'nous', la forme correcte de 'prendre' au present est 'prenons'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: ils/elles ___ (savoir, present).",
+      "options": [
+        "savent",
+        "sait",
+        "savez",
+        "sais"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'ils/elles', la forme correcte de 'savoir' au present est 'savent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (pouvoir, futur simple).",
+      "options": [
+        "pourrai",
+        "pourra",
+        "pourront",
+        "pourrons"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'je', la forme correcte de 'pouvoir' au futur simple est 'pourrai'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: il/elle ___ (prendre, subjonctif present).",
+      "options": [
+        "prenne",
+        "prenne",
+        "preniez",
+        "prennes"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'il/elle', la forme correcte de 'prendre' au subjonctif present est 'prenne'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (pouvoir, imparfait).",
+      "options": [
+        "pouvait",
+        "pouvais",
+        "pouvaient",
+        "pouviez"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'tu', la forme correcte de 'pouvoir' au imparfait est 'pouvais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: tu ___ (pouvoir, futur simple).",
+      "options": [
+        "pourrons",
+        "pourra",
+        "pourrai",
+        "pourras"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'tu', la forme correcte de 'pouvoir' au futur simple est 'pourras'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: je ___ (pouvoir, subjonctif present).",
+      "options": [
+        "puisse",
+        "puisses",
+        "puisse",
+        "puissent"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'je', la forme correcte de 'pouvoir' au subjonctif present est 'puisse'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: vous ___ (pouvoir, present).",
+      "options": [
+        "peux",
+        "peuvent",
+        "peux",
+        "pouvez"
+      ],
+      "answer_index": 3,
+      "explication": "Avec 'vous', la forme correcte de 'pouvoir' au present est 'pouvez'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: je ___ (faire, subjonctif present).",
+      "options": [
+        "fassiez",
+        "fasse",
+        "fasses",
+        "fasse"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'je', la forme correcte de 'faire' au subjonctif present est 'fasse'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "A2",
+      "question": "Complete: tu ___ (avoir, imparfait).",
+      "options": [
+        "avais",
+        "avait",
+        "avais",
+        "avions"
+      ],
+      "answer_index": 0,
+      "explication": "Avec 'tu', la forme correcte de 'avoir' au imparfait est 'avais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (savoir, conditionnel present).",
+      "options": [
+        "saurait",
+        "saurais",
+        "saurions",
+        "saurais"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'je', la forme correcte de 'savoir' au conditionnel present est 'saurais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B2",
+      "question": "Complete: ils/elles ___ (savoir, subjonctif present).",
+      "options": [
+        "sache",
+        "sache",
+        "sachent",
+        "sachions"
+      ],
+      "answer_index": 2,
+      "explication": "Avec 'ils/elles', la forme correcte de 'savoir' au subjonctif present est 'sachent'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    },
+    {
+      "type": "qcm",
+      "theme": "Conjugaison",
+      "niveau": "B1",
+      "question": "Complete: je ___ (aller, conditionnel present).",
+      "options": [
+        "iriez",
+        "irais",
+        "irions",
+        "irais"
+      ],
+      "answer_index": 1,
+      "explication": "Avec 'je', la forme correcte de 'aller' au conditionnel present est 'irais'.",
+      "lesson_category_slug": "temps-verbaux",
+      "lesson_titre": "Conjugaison des verbes irreguliers essentiels"
+    }
+  ],
+  "writing_prompts": [
+    {
+      "titre": "Debat: apprentissage en ligne",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Vous participez a un debat sur l'apprentissage en ligne. Donnez votre opinion en presentant avantages, limites et solutions.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Reseaux sociaux et concentration",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Discutez l'impact des reseaux sociaux sur la concentration des etudiants et proposez des recommandations.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Travail et etudes",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Est-il utile de travailler pendant ses etudes? Defendez votre position avec des exemples.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Message a l'administration",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Ecrivez un message formel pour demander le report d'un examen.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Demande de stage",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Redigez un message pour solliciter un stage dans une entreprise locale.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Invitation officielle",
+      "tache_tcf": "Tache 1",
+      "niveau": "B1",
+      "consigne": "Invitez un intervenant a participer a une conference universitaire.",
+      "min_mots": 60,
+      "max_mots": 120
+    },
+    {
+      "titre": "Recit: un succes personnel",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Racontez une situation ou vous avez atteint un objectif difficile.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Recit: un echec utile",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Racontez un echec qui vous a aide a progresser dans vos etudes.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Recit: premiere presentation",
+      "tache_tcf": "Tache 2",
+      "niveau": "B1",
+      "consigne": "Decrivez votre premiere presentation orale en francais et ce que vous avez appris.",
+      "min_mots": 120,
+      "max_mots": 160
+    },
+    {
+      "titre": "Ville ideale pour etudier",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Decrivez les criteres d'une ville ideale pour les etudiants internationaux.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Lecture papier ou numerique",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Comparez la lecture papier et la lecture numerique et donnez votre preference.",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Discipline et reussite",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Selon vous, la discipline est-elle plus importante que la motivation pour reussir?",
+      "min_mots": 180,
+      "max_mots": 220
+    },
+    {
+      "titre": "Debat: teletravail et productivite",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'teletravail et productivite'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: intelligence artificielle et etudes",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'intelligence artificielle et etudes'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: sport et reussite scolaire",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'sport et reussite scolaire'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: voyages et ouverture culturelle",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'voyages et ouverture culturelle'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: reseaux sociaux et information",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'reseaux sociaux et information'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: lecture obligatoire a l'universite",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'lecture obligatoire a l'universite'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: benevolat et insertion professionnelle",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'benevolat et insertion professionnelle'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: ville durable et mobilite etudiante",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'ville durable et mobilite etudiante'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: cours hybrides a l'universite",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'cours hybrides a l'universite'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: evaluation continue ou examen final",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'evaluation continue ou examen final'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: usage des smartphones en classe",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'usage des smartphones en classe'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: apprentissage des langues en ligne",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'apprentissage des langues en ligne'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: importance de la prise de notes",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'importance de la prise de notes'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: uniforme scolaire: pour ou contre",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'uniforme scolaire: pour ou contre'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: impact du cout de la vie etudiante",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'impact du cout de la vie etudiante'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: gestion du stress avant les examens",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'gestion du stress avant les examens'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: importance des stages",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'importance des stages'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    },
+    {
+      "titre": "Debat: plagiat et integrite academique",
+      "tache_tcf": "Tache 3",
+      "niveau": "B2",
+      "consigne": "Redigez un texte argumentatif sur le theme 'plagiat et integrite academique'. Presentez avantages, limites et position personnelle.",
+      "min_mots": 180,
+      "max_mots": 230
+    }
+  ]
+}
