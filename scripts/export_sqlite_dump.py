@@ -18,7 +18,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--out",
         type=Path,
-        default=root / "data" / "bootstrap_dump.sql",
+        default=root / "bootstrap" / "bootstrap_dump.sql",
         help="Chemin du fichier SQL genere.",
     )
     return parser.parse_args()

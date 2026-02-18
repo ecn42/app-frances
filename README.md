@@ -28,10 +28,14 @@ OPENAI_MODEL = "gpt-5-mini"
 This repo now includes:
 
 - `scripts/bootstrap_db.py`: initializes DB on first container start.
-- `data/bootstrap_dump.sql`: snapshot exported from your current `data/app.db`.
+- `bootstrap/bootstrap_dump.sql`: snapshot exported from your current `data/app.db`.
+- `bootstrap/schema.sql`: schema used for first-time initialization.
+
+Important: mount your Railway volume at `/app/data` only for runtime DB files.  
+Do not store bootstrap assets inside `/app/data`, because the volume hides repo files there.
 
 On first Railway boot:
-- if `data/bootstrap_dump.sql` exists, it restores from this dump;
+- if `bootstrap/bootstrap_dump.sql` exists, it restores from this dump;
 - otherwise it falls back to `content/packs/tcf_pack_v3.json`.
 
 ### 2) Create Railway service from GitHub
@@ -78,7 +82,7 @@ The app uses the server OpenAI key internally (not prefilled in a visible text f
 Re-export the latest local DB snapshot any time before deploy:
 
 ```bash
-python3 scripts/export_sqlite_dump.py --db data/app.db --out data/bootstrap_dump.sql
+python3 scripts/export_sqlite_dump.py --db data/app.db --out bootstrap/bootstrap_dump.sql
 ```
 
 Force a one-time reset/import on Railway (advanced):

@@ -9,10 +9,7 @@ def bootstrap_db() -> None:
     script = os.path.join("scripts", "bootstrap_db.py")
     if not os.path.exists(script):
         return
-    result = subprocess.run([sys.executable, script], check=False)
-    if result.returncode != 0:
-        # Keep app startup alive so deploy healthcheck can surface runtime logs.
-        print(f"[warn] bootstrap_db failed with code {result.returncode}, continuing startup.")
+    subprocess.run([sys.executable, script], check=True)
 
 
 def main() -> int:

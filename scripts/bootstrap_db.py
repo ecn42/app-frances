@@ -10,11 +10,11 @@ from import_content_pack import import_pack
 def resolve_paths() -> tuple[Path, Path, Path, Path]:
     root = Path(__file__).resolve().parents[1]
     db_path = Path(os.getenv("APP_DB_PATH", str(root / "data" / "app.db")))
-    schema_path = Path(os.getenv("DB_SCHEMA_PATH", str(root / "data" / "schema.sql")))
+    schema_path = Path(os.getenv("DB_SCHEMA_PATH", str(root / "bootstrap" / "schema.sql")))
     pack_path = Path(
         os.getenv("CONTENT_PACK_PATH", str(root / "content" / "packs" / "tcf_pack_v3.json"))
     )
-    dump_path = Path(os.getenv("DB_SQL_DUMP_PATH", str(root / "data" / "bootstrap_dump.sql")))
+    dump_path = Path(os.getenv("DB_SQL_DUMP_PATH", str(root / "bootstrap" / "bootstrap_dump.sql")))
     return db_path, schema_path, pack_path, dump_path
 
 
