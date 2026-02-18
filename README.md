@@ -41,7 +41,7 @@ On first Railway boot:
 3. Railway will use `railway.toml` and run:
 
 ```bash
-python scripts/bootstrap_db.py && python run.py
+python run.py
 ```
 
 ### 3) Add a persistent volume (important for SQLite)
