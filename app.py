@@ -141,110 +141,8 @@ def evaluer_barreme_ce(score: int, total: int) -> dict[str, Any]:
     return {"pourcentage": pourcentage, "niveau": niveau, "score_tcf_simule": score_tcf}
 
 
-def init_auth_state() -> None:
-    st.session_state.setdefault("auth_user_id", None)
-    st.session_state.setdefault("auth_username", "")
-
-
-def get_auth_user() -> dict[str, Any] | None:
-    user_id = st.session_state.get("auth_user_id")
-    username = st.session_state.get("auth_username")
-    if isinstance(user_id, int) and user_id > 0 and isinstance(username, str) and username:
-        return {"id": user_id, "username": username}
-    return None
-
-
-def normaliser_note_nombre(note: Any) -> float | None:
-    if isinstance(note, (int, float)):
-        return float(note)
-    if isinstance(note, str):
-        propre = note.strip().replace(",", ".")
-        if "/" in propre:
-            propre = propre.split("/", 1)[0].strip()
-        try:
-            return float(propre)
-        except ValueError:
-            return None
-    if isinstance(note, dict):
-        for cle in ["note_sur_20", "note", "valeur", "score"]:
-            if cle in note:
-                valeur = normaliser_note_nombre(note.get(cle))
-                if valeur is not None:
-                    return valeur
-    return None
-
-
-def afficher_authentification() -> None:
-    st.title("Connexion")
-    st.caption("Cree un compte simple, puis connecte-toi pour suivre ta progression.")
-
-    onglets = st.tabs(["Se connecter", "Creer un compte"])
-
-    with onglets[0]:
-        with st.form("form-login"):
-            username = st.text_input("Nom d'utilisateur", key="login-username")
-            password = st.text_input("Mot de passe", type="password", key="login-password")
-            connecter = st.form_submit_button("Se connecter", type="primary")
-        if connecter:
-            user = db.authenticate_user(username, password)
-            if not user:
-                st.error("Identifiants invalides.")
-            else:
-                st.session_state["auth_user_id"] = int(user["id"])
-                st.session_state["auth_username"] = str(user["username"])
-                st.rerun()
-
-    with onglets[1]:
-        with st.form("form-create-user"):
-            username = st.text_input("Nouveau nom d'utilisateur", key="signup-username")
-            password = st.text_input("Nouveau mot de passe", type="password", key="signup-password")
-            creer = st.form_submit_button("Creer le compte")
-        if creer:
-            ok, message = db.create_user(username, password)
-            if ok:
-                st.success("Compte cree. Connecte-toi depuis l'onglet Se connecter.")
-            else:
-                st.error(message)
-
-
-def afficher_suivi_utilisateur_sidebar(user_id: int) -> None:
-    st.subheader("Suivi")
-    stats = db.get_user_stats(user_id)
-    modules = [
-        ("qcm", "QCM"),
-        ("comprehension_ecrite", "Comprehension ecrite"),
-        ("expression_ecrite", "Expression ecrite"),
-    ]
-    if not stats:
-        st.caption("Aucune tentative enregistree.")
-    else:
-        for cle, libelle in modules:
-            info = stats.get(cle)
-            if not info:
-                continue
-            moyenne = "N/A"
-            if info["moyenne_pct"] is not None:
-                moyenne = f"{info['moyenne_pct']}%"
-            st.caption(f"{libelle}: {info['tentatives']} tentative(s), moyenne {moyenne}")
-
-    recentes = db.get_user_recent_activity(user_id, limit=6)
-    if recentes:
-        st.caption("Recent:")
-        for activite in recentes:
-            module = str(activite["module"]).replace("_", " ")
-            score = activite.get("score")
-            total = activite.get("total")
-            if isinstance(score, (int, float)) and isinstance(total, (int, float)) and total > 0:
-                st.caption(f"- {module}: {round(score, 1)}/{round(total, 1)}")
-            elif isinstance(score, (int, float)):
-                st.caption(f"- {module}: {round(score, 1)}")
-            else:
-                st.caption(f"- {module}")
-
-
 def verifier_base() -> bool:
     if db.database_exists():
-        db.ensure_auth_tables()
         return True
 
     st.error("Base SQLite absente.")
@@ -373,7 +271,7 @@ def afficher_conjugaison() -> None:
             st.caption(f"Niveau indicatif: {lignes[0]['niveau']}")
 
 
-def afficher_qcm(user_id: int | None = None) -> None:
+def afficher_qcm() -> None:
     st.title("QCM")
     themes = ["Tous"] + db.list_themes_qcm()
     niveaux = ["Tous"] + db.list_levels_for_table("exercises")
@@ -426,15 +324,6 @@ def afficher_qcm(user_id: int | None = None) -> None:
                 bonnes += 1
         score = round((bonnes / len(serie)) * 100)
         st.metric("Score", f"{score}% ({bonnes}/{len(serie)})")
-        if user_id is not None:
-            db.record_user_activity(
-                user_id=user_id,
-                module="qcm",
-                event_type="serie",
-                score=bonnes,
-                total=len(serie),
-                meta={"theme": theme, "niveau": niveau, "taille": len(serie)},
-            )
 
         st.subheader("Corrige")
         for q in serie:
@@ -446,7 +335,7 @@ def afficher_qcm(user_id: int | None = None) -> None:
             st.markdown(f"- Explication: {q['explication']}")
 
 
-def afficher_expression_ecrite(user_id: int | None = None) -> None:
+def afficher_expression_ecrite() -> None:
     st.title("Expression ecrite")
     st.caption("Correction et notation avec API OpenAI.")
 
@@ -562,24 +451,8 @@ def afficher_expression_ecrite(user_id: int | None = None) -> None:
         st.subheader("Conseil methode")
         st.info(evaluation.get("conseil_methode", "Non fourni."))
 
-        if user_id is not None:
-            note = normaliser_note_nombre(evaluation.get("note_globale_sur_20"))
-            db.record_user_activity(
-                user_id=user_id,
-                module="expression_ecrite",
-                event_type="correction",
-                score=note,
-                total=20,
-                meta={
-                    "niveau": sujet["niveau"],
-                    "tache_tcf": sujet["tache_tcf"],
-                    "sujet": sujet["titre"],
-                    "mots": nb_mots,
-                },
-            )
 
-
-def afficher_comprehension_ecrite(user_id: int | None = None) -> None:
+def afficher_comprehension_ecrite() -> None:
     st.title("Comprehension ecrite (simulation TCF)")
     st.caption("Format QCM progressif proche du TCF: questions explicites, inferentielles et lexicales.")
 
@@ -652,19 +525,6 @@ def afficher_comprehension_ecrite(user_id: int | None = None) -> None:
 
         total = len(questions)
         barreme = evaluer_barreme_ce(bonnes, total)
-        if user_id is not None:
-            db.record_user_activity(
-                user_id=user_id,
-                module="comprehension_ecrite",
-                event_type="epreuve",
-                score=bonnes,
-                total=total,
-                meta={
-                    "niveau": passage["niveau"],
-                    "type_document": passage["type_document"],
-                    "titre": passage["titre"],
-                },
-            )
 
         st.subheader("Resultat")
         bloc = st.container(horizontal=True, horizontal_alignment="left", gap="small")
@@ -691,16 +551,8 @@ def afficher_comprehension_ecrite(user_id: int | None = None) -> None:
 
 
 def main() -> None:
-    init_auth_state()
     if not verifier_base():
         return
-
-    utilisateur = get_auth_user()
-    if not utilisateur:
-        afficher_authentification()
-        return
-
-    user_id = int(utilisateur["id"])
 
     with st.sidebar:
         st.header("Navigation")
@@ -720,14 +572,6 @@ def main() -> None:
             index=0,
         )
         st.caption("Interface en francais pour immersion TCF.")
-        st.divider()
-        st.caption(f"Connecte: {utilisateur['username']}")
-        if st.button("Deconnexion", use_container_width=True):
-            st.session_state["auth_user_id"] = None
-            st.session_state["auth_username"] = ""
-            st.rerun()
-        st.divider()
-        afficher_suivi_utilisateur_sidebar(user_id)
 
     if page == "Accueil":
         afficher_accueil()
@@ -742,11 +586,11 @@ def main() -> None:
     elif page == "Conjugaison":
         afficher_conjugaison()
     elif page == "Comprehension ecrite":
-        afficher_comprehension_ecrite(user_id=user_id)
+        afficher_comprehension_ecrite()
     elif page == "QCM":
-        afficher_qcm(user_id=user_id)
+        afficher_qcm()
     else:
-        afficher_expression_ecrite(user_id=user_id)
+        afficher_expression_ecrite()
 
 
 if __name__ == "__main__":
